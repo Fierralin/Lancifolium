@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>{{ page.title }}</title>
+        <style type="text/css">
+          html {
+            background:#333d43;
+		    color: #ADADAD;
+	      }
+        </style>
+    </head>
+
+    <body>
+      <style type="text/css">
+        ul {
+          overflow: hidden;
+          display: inline-flex;
+        }
+        li {
+          position: relative;
+          float: left;
+          list-style: none;
+        }
+        a {
+          color: #5d5d5d;
+          display: inline-flex;
+          text-decoration:none;
+          padding: 6px 12px 6px;
+        }
+      </style>
+      <ul>
+      <li><a href="http://fierralin.github.io/index.html" class="homeIcon">Homepage</a></li>
+      <li><a href="http://fierralin.github.io/blog/index.html">Blog</a></li>
+    </ul>
+      <br>
+        {{ content }}
+    </body>
+
+</html>
