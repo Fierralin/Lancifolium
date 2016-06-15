@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1462363955 source:d:\code\qtlancifolium\lancifolium\gncalculate.cpp
+	"GnCalculate.h"
+
+1462363951 d:\code\qtlancifolium\lancifolium\gncalculate.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cctype>
+	<stack>
+	<list>
+	"GnNode.h"
+
+1462429381 d:\code\qtlancifolium\lancifolium\gnnode.h
+	"FunLancifolium.h"
+
+1464598574 d:\code\qtlancifolium\lancifolium\funlancifolium.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<string>
+	<cctype>
+	<vector>
+	<stack>
+	<algorithm>
+	"FileBuff.h"
+
+1465200371 source:d:\code\qtlancifolium\lancifolium\main.cpp
+	"DevLancifolium.h"
+	"GnNode.h"
+	"FileBuff.h"
+	"FunLancifolium.h"
+	"sgftree.h"
+	"sgf_properties.h"
+
+1464598513 d:\code\qtlancifolium\lancifolium\devlancifolium.h
+	<algorithm>
+	"GnNode.h"
+	"FunLancifolium.h"
+	"FileBuff.h"
+
+1464704135 source:d:\code\qtlancifolium\lancifolium\movlancifolium.cpp
+	"MovLancifolium.h"
+
+1460294139 d:\code\qtlancifolium\lancifolium\movlancifolium.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cctype>
+	<stack>
+	<list>
+	"GnNode.h"
+
+1461377614 source:d:\code\qtlancifolium\lancifolium\unilancifolium.cpp
+	"UniLancifolium.h"
+
+1461377973 d:\code\qtlancifolium\lancifolium\unilancifolium.h
+	"DevLancifolium.h"
+
+1462865205 source:d:\code\qtlancifolium\lancifolium\gnnode.cpp
+	"GnNode.h"
+
+1464700953 source:d:\code\qtlancifolium\lancifolium\devlancifolium.cpp
+
+1463494664 d:\code\qtlancifolium\lancifolium\filebuff.h
+	<cstdio>
+	<cstring>
+
+1465196498 source:d:\code\qtlancifolium\lancifolium\gnusgf\sgfnode.c
+	<config.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<assert.h>
+	<stdarg.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	"sgftree.h"
+
+1234906891 d:\code\qtlancifolium\lancifolium\gnusgf\sgftree.h
+	<stdio.h>
+	"sgf_properties.h"
+
+1234906891 d:\code\qtlancifolium\lancifolium\gnusgf\sgf_properties.h
+
+1465196272 source:d:\code\qtlancifolium\lancifolium\gnusgf\sgftree.c
+	<assert.h>
+	"sgftree.h"
+
+1464700953 d:\code\qtlancifolium\lancifolium\devlancifolium.cpp
+
+1462865205 d:\code\qtlancifolium\lancifolium\gnnode.cpp
+	"GnNode.h"
+
+1464700803 d:\code\qtlancifolium\lancifolium\filebuff.cpp
+	"FileBuff.h"
+
+1464700803 source:d:\code\qtlancifolium\lancifolium\filebuff.cpp
+	"FileBuff.h"
+
+1234906891 d:\code\qtlancifolium\lancifolium\sgftree.h
+	<stdio.h>
+	"sgf_properties.h"
+
+1234906891 d:\code\qtlancifolium\lancifolium\sgf_properties.h
+
+1465196498 source:d:\code\qtlancifolium\lancifolium\sgfnode.c
+	<config.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<assert.h>
+	<stdarg.h>
+	<sys/time.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	"sgftree.h"
+
+1465196272 source:d:\code\qtlancifolium\lancifolium\sgftree.c
+	<assert.h>
+	"sgftree.h"
+
