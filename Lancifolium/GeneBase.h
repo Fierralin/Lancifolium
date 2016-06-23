@@ -14,6 +14,7 @@ using std::vector;
 
 /*
  * 重要原則：成功則返回0
+ * 正確返回true
  */
 
 typedef struct GnNode { // 讀取棋譜文件所用節點，亦當可用於戰鬥

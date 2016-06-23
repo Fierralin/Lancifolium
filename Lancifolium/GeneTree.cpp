@@ -1,5 +1,11 @@
 #include "GeneBase.h"
 
+void GnTree::init() {
+    treeroot = NULL;
+    comment.clear();
+    nodename.clear();
+}
+
 GnTree::__GnTree() {
 	init();
 }
@@ -60,7 +66,8 @@ int GnTree::adjustnxtlist(vector<GnNode *> &nxt) {
 			else if (**itoi == **itoj) { /* 兩個節點配置相同 */
 				printf("mov(%d, %d)\n", (*itoi)->mov, (*itoj)->mov); /* ------------- */
 				printf("nxtlist(%d, %d)\n", (*itoi)->nxt.size(), (*itoj)->nxt.size()); /* ------------- */
-				(*itoi)->joinsame(**itoj); /* 將itoj複製到itoi */
+                //(*itoi)->joinsame(**itoj); /* 將itoj複製到itoi */
+                joinsame(*itoi, *itoj); // 此處換成指針了
 				/* 之前這裡出了問題，joinsame裡面是兩個*，不能是一個星 */
 				nxt.erase(itoj); /* 理解，這裡不要++ */
 			}
@@ -98,6 +105,7 @@ int GnTree::joinManuals(struct __GnTree &sig) { /* 將另一個棋譜歸併進�
 int GnTree::reverse(int deep, struct GnNode *cur) {
 	if (cur == NULL) return 1;
 	cur->printbase();
+    //printf("after printbase\n");
 
 	if (cur->nxt.size() > 1) {
 		deep++;
@@ -116,8 +124,8 @@ int GnTree::reverse(int deep, struct GnNode *cur) {
 	return 0;
 }
 
-int GnTree::printtree() {
+void GnTree::printtree() {
 	printf("-----------------------------------\n");
-	reverse(0, gntree->treeroot);
+    reverse(0, this->treeroot);
 	printf("\n");
 }

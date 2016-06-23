@@ -13,7 +13,7 @@
 
 #define BUFFER_LENGTH 999999 /* 評論長度 */
 
-struct DevLancifolium { // 全局結構
+typedef struct DevLancifolium { // 全局結構
 	int siz; // 棋盤規格
 
 	//struct GnNode *root; // 根節點
@@ -53,6 +53,6 @@ struct DevLancifolium { // 全局結構
 
 	/* 讀取棋譜主函數 */
 	int configManual(char *filename);
-};
+} DevLancifolium;
 
 #endif // DEVLANCIFOLIUM_H

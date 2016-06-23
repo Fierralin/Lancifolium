@@ -1,4 +1,5 @@
 #include "FormLancifolium.h"
+#include "DevLancifolium.h"
 
 int __FormLancifolium::readTree(char *filename) {
 	GnTree sig;

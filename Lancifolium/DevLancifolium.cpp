@@ -188,12 +188,11 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 } // finished configNode
 
 int DevLancifolium::configManual(char *filename) {
-	if (openfile(filename)) return 1; /* 文件讀取失敗 */
-	if (gntree == NULL) gntree = new GnTree;
-	if (gntree->treeroot != NULL) return 2; /* 棋譜樹不爲空 */
-	this->init(); /* init */
-	gntree->treeroot = new struct GnNode;
-	gntree->treeroot->init(NULL);
+    if (openfile(filename)) return 1; /* 文件讀取失敗 */
+    if (gntree == NULL) gntree = new GnTree;
+    if (gntree->treeroot != NULL) return 2; /* 棋譜樹不爲空 */
+    this->siz = 19; // init
+    gntree->treeroot = new GnNode;
 	while (!branchStack.empty()) branchStack.pop(); // 清空棧
 
 	reader = read.getc();

@@ -128,3 +128,67 @@
 	<assert.h>
 	"sgftree.h"
 
+1466518372 source:c:\users\fierralin\code\lancifolium\lancifolium\filebuff.cpp
+	"FileBuff.h"
+
+1466518372 c:\users\fierralin\code\lancifolium\lancifolium\filebuff.h
+	<cstdio>
+	<cstring>
+
+1466682500 source:c:\users\fierralin\code\lancifolium\lancifolium\formlancifolium.cpp
+	"FormLancifolium.h"
+	"DevLancifolium.h"
+
+1466518372 c:\users\fierralin\code\lancifolium\lancifolium\formlancifolium.h
+	"DevLancifolium.h"
+	"MovLancifolium.h"
+
+1466682622 c:\users\fierralin\code\lancifolium\lancifolium\devlancifolium.h
+	<algorithm>
+	"GeneBase.h"
+	"FunLancifolium.h"
+	"FileBuff.h"
+
+1466518598 c:\users\fierralin\code\lancifolium\lancifolium\genebase.h
+	"FunLancifolium.h"
+
+1466518372 c:\users\fierralin\code\lancifolium\lancifolium\funlancifolium.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<string>
+	<cctype>
+	<list>
+	<vector>
+	<stack>
+	<algorithm>
+	"FileBuff.h"
+
+1466518372 c:\users\fierralin\code\lancifolium\lancifolium\movlancifolium.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cctype>
+	<stack>
+	<list>
+	"GeneBase.h"
+
+1466687029 source:c:\users\fierralin\code\lancifolium\lancifolium\genenode.cpp
+	"GeneBase.h"
+
+1466686786 source:c:\users\fierralin\code\lancifolium\lancifolium\genetree.cpp
+	"GeneBase.h"
+
+1466685321 source:c:\users\fierralin\code\lancifolium\lancifolium\main.cpp
+	"DevLancifolium.h"
+	"GeneBase.h"
+	"FileBuff.h"
+	"FunLancifolium.h"
+
+1466518372 source:c:\users\fierralin\code\lancifolium\lancifolium\movlancifolium.cpp
+	"MovLancifolium.h"
+
+1466685168 source:c:\users\fierralin\code\lancifolium\lancifolium\devlancifolium.cpp
+

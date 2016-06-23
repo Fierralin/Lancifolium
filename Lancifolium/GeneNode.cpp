@@ -2,6 +2,7 @@
 
 void GnNode::init(struct GnNode *par) { // 初始化（此處的默認參數不能加）
 	parent = par; // 父節點
+    printf("----gnnode--\n");
 
 	nxt.clear();
 	nxt.reserve(0); // 初始分配空間爲0
@@ -10,6 +11,8 @@ void GnNode::init(struct GnNode *par) { // 初始化（此處的默認參數不�
 	mov = NONE_MOV; // 走子和走子自然手數，沒有走子記爲-1
 	liftcolour = 0;
 
+
+    printf("----gnnode-zhong-\n");
 	addblacks.clear(); // 這些以後試著刪除
 	addblacks.reserve(0);
 	addwhites.clear();
@@ -17,15 +20,20 @@ void GnNode::init(struct GnNode *par) { // 初始化（此處的默認參數不�
 
 	labels.clear();
 	labels.reserve(0);
+    printf("----gnnode-000000-\n");
 
 	comment = nodename = NULL;
 
 	liftsave.clear();
 	liftsave.reserve(0);
+    printf("----gnnode-final-\n");
 } // finished init
 
 GnNode::GnNode() {
-	init();
+    printf("----gnnode--\n");
+    init(NULL);
+
+    printf("----gnnode-closed-\n");
 }
 
 GnNode::GnNode(struct GnNode *par) {
@@ -83,13 +91,9 @@ void GnNode::printing() {
 
 void GnNode::printbase() {
 	//printf("|%d|%d|%d|", stoneProp, mov, nxtnum);
-	printf("[%d|", mov);
-	std::cout << *this->comment << "|" << *this->nodename << "]";
-}
-
-void GnTree::init() {
-	treeroot = NULL;
-	comment.clear();
-	nodename.clear();
+    printf("[%d", mov);
+    if (this->comment != NULL) std::cout << "|" << *this->comment;
+    if (this->nodename != NULL) std::cout << "|" << *this->nodename;
+    printf("]");
 }
 
