@@ -129,3 +129,19 @@ void GnTree::printtree() {
     reverse(0, this->treeroot);
 	printf("\n");
 }
+
+void GnTree::printpool() {
+	std::list<string>::iterator itor;
+
+	printf("[Nodename]\n");
+	itor = this->nodename.begin();
+	while (itor != this->nodename.end()) {
+		std::cout << *itor++ << std::endl;
+	}
+	printf("[Comment]\n");
+	itor = this->comment.begin();
+	while (itor != this->comment.end()) {
+		std::cout << *itor++ << std::endl;
+	}
+	printf("----------------------");
+}

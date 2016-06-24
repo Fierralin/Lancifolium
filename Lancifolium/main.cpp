@@ -8,7 +8,16 @@ int main(int argc, char *argv[]) {
     DevLancifolium dev;
     dev.gntree = &sig;
     printf("----------------\n");
-    dev.configManual("tmp.sgf");
-    printf("----------------\n");
-    sig.printtree();
+    if (argc < 2) {
+        printf("exe [filename]\n");
+    }
+    if (dev.configManual(argv[1]) == 1) {
+
+    }
+    else {
+        printf("----------------\n");
+        sig.printtree();
+		sig.printpool();
+		sig.deleteroot(sig.treeroot);
+    }
 }

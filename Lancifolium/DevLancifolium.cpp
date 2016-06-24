@@ -130,7 +130,7 @@ int DevLancifolium::dealLabels(struct GnNode *tmpnode, int form) {
 	case 0: // 字母標籤
 		for (int tmpi = 0; tmpi < tmpnode->labels.size(); tmpi++) {
 			tmpnode->labels[tmpi] += ('A' + tmpi) * 10000;
-			printf("----alphabet labels: %d \n", tmpnode->labels[tmpi]); /*----------------*/
+            //printf("----alphabet labels: %d \n", tmpnode->labels[tmpi]); /*----------------*/
 		}
 		break;
 	case TRIANGLE: tmpform = TRIANGLE;

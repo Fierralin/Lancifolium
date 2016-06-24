@@ -69,8 +69,9 @@ typedef struct __GnTree { // 保存提子信息，GnNode中已經包含了這個
 	int adjustManual(GnNode *tmpnode);
 	int joinManuals(struct __GnTree &sig);
 
-	int reverse(int deep, GnNode *cur);
-	void printtree();
+	void printpool(); // 打印nodename和comment池
+	int reverse(int deep, GnNode *cur); //  遞歸遍歷棋譜樹，並輸出節點信息
+	void printtree(); // 打印樹
 } GnTree;
 
 #endif // !GENEBASE_H

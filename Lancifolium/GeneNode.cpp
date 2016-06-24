@@ -1,8 +1,7 @@
 #include "GeneBase.h"
 
 void GnNode::init(struct GnNode *par) { // 初始化（此處的默認參數不能加）
-	parent = par; // 父節點
-    printf("----gnnode--\n");
+    parent = par; // 父節點
 
 	nxt.clear();
 	nxt.reserve(0); // 初始分配空間爲0
@@ -12,28 +11,22 @@ void GnNode::init(struct GnNode *par) { // 初始化（此處的默認參數不�
 	liftcolour = 0;
 
 
-    printf("----gnnode-zhong-\n");
 	addblacks.clear(); // 這些以後試著刪除
 	addblacks.reserve(0);
 	addwhites.clear();
 	addwhites.reserve(0);
 
 	labels.clear();
-	labels.reserve(0);
-    printf("----gnnode-000000-\n");
+    labels.reserve(0);
 
 	comment = nodename = NULL;
 
 	liftsave.clear();
-	liftsave.reserve(0);
-    printf("----gnnode-final-\n");
+    liftsave.reserve(0);
 } // finished init
 
 GnNode::GnNode() {
-    printf("----gnnode--\n");
     init(NULL);
-
-    printf("----gnnode-closed-\n");
 }
 
 GnNode::GnNode(struct GnNode *par) {
@@ -92,8 +85,8 @@ void GnNode::printing() {
 void GnNode::printbase() {
 	//printf("|%d|%d|%d|", stoneProp, mov, nxtnum);
     printf("[%d", mov);
-    if (this->comment != NULL) std::cout << "|" << *this->comment;
     if (this->nodename != NULL) std::cout << "|" << *this->nodename;
+    if (this->comment != NULL) std::cout << "|" << *this->comment;
     printf("]");
 }
 
