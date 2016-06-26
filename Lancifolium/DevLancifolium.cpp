@@ -37,6 +37,7 @@ int DevLancifolium::dealSize() {
 	tmpnum[tmpi] = '\0';
 	siz = atoi(tmpnum);
 	if (siz < 4) siz = 4; else if (siz > 26) siz = 26;
+	gntree->siz = this->siz; // bord size
 	reader = read.getc(); //
 }
 
@@ -90,10 +91,11 @@ int DevLancifolium::dealCommentNodename(GnNode *tmpnode, int tmpkind) {
 	reader = read.getc(); // 棄了'['
 	tmpsave = '\0';
 	while ((reader != ']') || (tmpsave == '\\')) {
-		if (tmpsave == '\\') { // 此處要改
-			if (reader == 'n') buff[tmpi - 1] = '\n';
-			else if (reader == 't') buff[tmpi - 1] = '\t';
-			else if ((reader == '[') || (reader == ']')
+		/* // 此處進行了轉義處理，也可不進行轉義處理，這個並不好辦
+		if (tmpsave == '\\') { // 此處要改 --- 注意，此處將[, ]及一些空白字符進行了轉義
+			if (reader == 'n') buff[tmpi - 1] = '\n'; // '\n'
+			else if (reader == 't') buff[tmpi - 1] = '\t'; // '\t'
+			else if ((reader == '[') || (reader == ']') // '[' and '\]'
 				|| (reader == '\\')) buff[tmpi - 1] = reader;
 			else buff[tmpi++] = reader;
 			tmpsave = reader;
@@ -103,47 +105,60 @@ int DevLancifolium::dealCommentNodename(GnNode *tmpnode, int tmpkind) {
 			if (tmpi < BUFFER_LENGTH) buff[tmpi++] = reader;
 		}
 		reader = read.getc(); // 下一個
+		//*/
+		if (tmpi < BUFFER_LENGTH) buff[tmpi++] = reader;
+		tmpsave = reader; // 保存當前
+		reader = read.getc(); // 下一個
 	}
 	buff[tmpi] = '\0';
+
 	//printf("$$buff: %s", buff); ////////////
 	gntree->insertcomment(buff, tmpnode, tmpkind);
 	reader = read.getc(); // 棄了']'
 } // finished dealCommentNodename
 
-int DevLancifolium::dealLabels(struct GnNode *tmpnode, int form) {
+int DevLancifolium::dealLabels(struct GnNode *tmpnode) { // LB
 	/*
 	 * labels can be LB[ab][cd]... MA[ab][cd]
 	 * however, labels can also be: [pg:A]
 	**/
-	int tmpform;
+	int tmpform = 'A';
 	int tmplab;
 	while (reader == '[') {
-		tmplab = toupper(read.getc()) - 'A';
-		tmplab *= 100;
+		tmplab = (toupper(read.getc()) - 'A') * 100;
 		tmplab += toupper(read.getc()) - 'A';
-		while (reader != ']') reader = read.getc(); // ']'
-		reader = read.getc(); // '[' or not
-		tmpnode->labels.push_back(tmplab);
-	}
-
-	switch (form) {
-	case 0: // 字母標籤
-		for (int tmpi = 0; tmpi < tmpnode->labels.size(); tmpi++) {
-			tmpnode->labels[tmpi] += ('A' + tmpi) * 10000;
-            //printf("----alphabet labels: %d \n", tmpnode->labels[tmpi]); /*----------------*/
+		while (reader != ']') reader = read.getc(); // reach ':' or ']'
+		if (reader == ':') { // LB[pg:A] kind
+			reader = read.getc(); // ignore ':'
+			while (iswhite(reader)) reader = read.getc(); // reach label
+			tmpnode->labels.push_back(reader * 10000 + tmplab); //
 		}
-		break;
-	case TRIANGLE: tmpform = TRIANGLE;
-	case DIAMOND: tmpform = DIAMOND;
-	case FORK: tmpform = FORK;
-	case CIRCLE: tmpform = CIRCLE;
-		for (int tmpi = 0; tmpi < tmpnode->labels.size(); tmpi++)
-			tmpnode->labels[tmpi] += tmpform * 10000;
-		break;
-	default: break;
+		else { // LB[AB][CD] kind
+			tmpnode->labels.push_back(tmpform * 10000 + tmplab);
+			tmpform++;
+		}
+
+		while (reader != ']') reader = read.getc(); // reach ']'
+		reader = read.getc(); // ignore ']'
+		while (iswhite(reader)) reader = read.getc(); // reach '[' or next
 	}
 
 	return 0;
+}
+
+int DevLancifolium::dealShapes(GnNode *tmpnode, int form) { // TR SQ MA CR
+	int tmplab;
+
+	while (reader == '[') {
+		tmplab = (toupper(read.getc()) - 'A') * 100;
+		tmplab += toupper(read.getc()) - 'A';
+		tmplab += form * 10000;
+		tmpnode->labels.push_back(tmplab); // 直接將標籤放進去就行了
+
+		while (reader != ']') reader = read.getc(); // reach ']'
+		reader = read.getc(); // ignore ']'
+		while (iswhite(reader)) reader = read.getc(); // reach '[' or next
+	}
 }
 
 
@@ -163,11 +178,11 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		if (reader == EOF) return 0; // EOF
 
 		switch (operatecase(operate)) {
-		case 1202: dealLabels(curNode, 0); break; /* LB 字母 0 */
-		case 2018: dealLabels(curNode, TRIANGLE); break; /* TR 三角 1 */
-		case 1917: dealLabels(curNode, DIAMOND); break; /* SQ 方塊 2 */
-		case 1301: dealLabels(curNode, FORK); break; /* MA 叉 3 */
-		case 318:  dealLabels(curNode, CIRCLE); break; /* CR 圓 4 */
+		case 1202: dealLabels(curNode); break; /* LB 字母 0 */
+		case 2018: dealShapes(curNode, TRIANGLE); break; /* TR 三角 1 */
+		case 1917: dealShapes(curNode, DIAMOND); break; /* SQ 方塊 2 */
+		case 1301: dealShapes(curNode, FORK); break; /* MA 叉 3 */
+		case 318:  dealShapes(curNode, CIRCLE); break; /* CR 圓 4 */
 		case 3:    dealCommentNodename(curNode, 1); break; /* C comment */
 		case 14:   dealCommentNodename(curNode, 2); break; /* N nodename */
 		case 102:  dealAddStones(curNode, BLACKSTONE); break; /* AB 添加黑子 */
