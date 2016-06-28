@@ -1,0 +1,1430 @@
+
+(
+ ;GM[1]AP[StoneBase:SGFParser.3.0.1]SZ[19]CA[gb2312]HA[0]
+ (
+  ;B[qc]
+ )
+ (
+  ;B[pd]()
+  (
+   ;AB[dp]AW[dd][pp];W[qf]LB[pg:A][qh:B]
+   (
+    ;B[pg]LB[pf:A][oe:B]N[倒垂蓮]C[倒垂蓮]
+    (
+     ;W[pf]N[A 衝斷];B[of]LB[og:A][re:B]
+     (
+      ;W[og]LB[qg:A][ph:B]N[A 斷]
+      (
+       ;B[qg]LB[rg:A][oh:B]N[A 貼]
+       (
+        ;W[rg]LB[rh:A][rf:B]N[A 扳]
+        (
+         ;B[rh]N[A 擋];W[re]LB[qi:A][sg:B]
+         (
+          ;B[qi]N[A 虎];W[pi];B[pe];W[oh];B[qh];W[qc];B[pc];W[qb];B[pb]LB[qk:A][nf:B]
+          (
+           ;W[qk]N[A 逼];B[qj];W[pk]LB[sb:A][rf:B]
+           (
+            ;B[sb]N[A 點];W[sf];B[rd];W[qd];B[qe];W[rf];B[rb];W[rc];B[sd];W[ra];B[sh]C[黑勝。]
+           )
+           (
+            ;B[rf]N[B 撲];W[sf];B[rd];W[qd];B[qe];W[rf];B[rc];W[rb];B[sd];W[sa];B[qa];W[sc];B[sb];W[nf];B[oe];W[sc];B[pj]C[兩分。]
+           )
+          )
+          (
+           ;W[nf]N[B 打];B[oe];W[qk];B[qj];W[pk];B[rf];W[sf];B[rd];W[qd];B[qe];W[rf];B[rc];W[rb];B[sd];W[sb];B[qa];W[sc];B[ra];W[se];B[rd];W[rj];B[sh]C[黑勝。]
+          )
+         )
+         (
+          ;B[sg]N[B 打];W[rf]LB[qi:A][ph:B][pi:C][qh:D]
+          (
+           ;B[qi]LB[oh:A][pi:B]N[A 虎]
+           (
+            ;W[oh]N[A 長];B[oe]LB[pi:A][qd:B]
+            (
+             ;W[pi]N[A 蓋];B[qh];W[qc];B[qd];W[rd];B[qb];W[qk];B[rl];W[rk];B[pj]C[黑勝。]
+            )
+            (
+             ;W[qd]N[A 頂];B[qk];W[jc];B[qc];W[rc];B[pc];W[mc];B[rb];W[sb];B[sd];W[sc];B[rd];W[se];B[rd];W[sd];B[pe];W[qb];B[ra];W[pa]C[白勝。]
+            )
+           )
+           (
+            ;W[pi]LB[oe:A][qk:B]N[B 飛]
+            (
+             ;B[oe]N[A 長];W[oh];B[qh]LB[qc:A][qd:B]
+             (
+              ;W[qc]N[A 點];B[pb];W[qk];B[pj];W[nd];B[pc];W[qj]C[黑勝。]
+             )
+             (
+              ;W[qd]N[A 尖頂];B[qc];W[rc];B[pc];W[qk];B[pj];W[oj];B[rl]C[兩分。]
+             )
+            )
+            (
+             ;B[qk]N[B 跳];W[oh];B[qh];W[oe];B[nf];W[od];B[pe];W[qc];B[pc];W[qb];B[nc];W[ne];B[me];W[mf];B[ng];W[md];B[le];W[nd];B[ld];W[mc];B[lc];W[mb];B[nb];W[na];B[oa]C[黑勝。]
+            )
+           )
+          )
+          (
+           ;B[ph]N[B 彎];W[qi];B[pi];W[qd];B[oe];W[qb];B[pb];W[qh];B[qj];W[ri];B[pk];W[ng];B[lc]C[黑好。]
+          )
+          (
+           ;B[pi]N[C 關];W[qc];B[qd];W[rd];B[qb];W[pc];B[oc];W[pb];B[ob];W[rb];B[oe];W[qh];B[ph];W[qi];B[qj];W[ri];B[pk];W[nd];B[me];W[od];B[mc];W[pe];B[ne]C[黑好。]
+          )
+          (
+           ;B[qh]N[D 粘];W[oh];B[oe];W[qd];B[qk];W[jc];B[qc];W[rc];B[pc];W[mc];B[rb];W[sb];B[sd];W[sc];B[rd];W[se];B[rd];W[sd];B[pe];W[qb];B[ra];W[qa];B[pb]C[黑勝。]
+          )
+         )
+        )
+        (
+         ;B[rf]N[B 斷];W[re];B[sf]LB[oe:A][se:B]
+         (
+          ;W[oe]LB[nf:A][pe:B]N[A 下打]
+          (
+           ;B[nf]N[A 長];W[oh];B[pe];W[qe]LB[qh:A][rh:B]
+           (
+            ;B[qh]N[A 長出];W[pc];B[od];W[qc];B[rh];W[nd];B[ne];W[nc]C[白勝。]
+           )
+           (
+            ;B[rh]N[B 打];W[qh];B[sg];W[ph]C[白勝。]
+           )
+          )
+          (
+           ;B[pe]N[B 打];W[qe];B[nf];W[oh];B[qh];W[pc]LB[qd:A][od:B]
+           (
+            ;B[qd]N[A 下拐];W[rd];B[qc];W[rc];B[qb];W[qi]C[白勝。]
+           )
+           (
+            ;B[od]N[B 打];W[qd];B[rh];W[ne]C[白勝。]
+           )
+          )
+         )
+         (
+          ;W[se]N[B 吃];B[qe];W[sg];B[rf];W[sf];B[pe];W[rf];B[qi]LB[ri:A][pc:B]
+          (
+           ;W[ri]LB[rj:A][qj:B]N[A 托]
+           (
+            ;B[rj]N[A 扳];W[qh];B[ph];W[pi];B[rh];W[oh]C[第十七变
+共二十五着 白胜]
+           )
+           (
+            ;B[qj]N[B 長];W[oe];B[nf];W[pc];B[od];W[qc];B[oc]C[黑好。]
+           )
+          )
+          (
+           ;W[pc]N[B 頂];B[qc];W[oe];B[nf];W[od];B[qd];W[qb];B[rc];W[ob];B[rh];W[rb];B[sd]C[黑勝。]
+          )
+         )
+        )
+       )
+       (
+        ;W[oh]N[B 長];B[rf];W[oe];B[nf];W[re];B[pe];W[qe];B[rg];W[qc];B[pc];W[qb]LB[ne:A][pb:B]
+        (
+         ;B[ne]N[A 打];W[pj];B[rj];W[rk];B[qk];W[ri];B[pi]C[黑勝。]
+        )
+        (
+         ;B[pb]N[B 擋];W[qd]LB[qj:A][ne:B]
+         (
+          ;B[qj]LB[oc:A][ne:B]
+          (
+           ;W[oc]N[A 關];B[ne];W[od];B[ob];W[nc];B[mc];W[nb];B[mb];W[pa];B[oj]C[黑取外勢。]
+          )
+          (
+           ;W[ne]N[B 長];B[me];W[mf];B[ng];W[nd];B[md];W[nc];B[mc];W[mb];B[lb];W[nb];B[kc]C[黑取外勢。]
+          )
+         )
+         (
+          ;B[ne]N[B 打];W[qi];B[ri]LB[rj:A][qj:B]
+          (
+           ;W[rj]N[A 扳];B[qj];W[pj];B[qk];W[rh];B[pi];W[si];B[oi]C[黑好。]
+          )
+          (
+           ;W[qj]N[B 長];B[rj];W[rk];B[qk];W[rl];B[ql];W[qm];B[pm];W[qn];B[pi];W[ph];B[qh];W[pj];B[oi]C[黑好。]
+          )
+         )
+        )
+       )
+      )
+      (
+       ;B[ph]N[B 長];W[oe];B[nf];W[od];B[md];W[pc];B[lf];W[rh];B[qi]C[兩分。]
+      )
+     )
+     (
+      ;W[re]N[B 尖]C[此乃晉士明所弈變化。];B[rg];W[qg];B[qh];W[ph];B[og];W[qi];B[rh];W[pj];B[ri];W[rj];B[qk];W[qj];B[oh];W[pi];B[rf];W[qd];B[qc];W[rc];B[pe];W[qe];B[se];W[rd];B[rb];W[qb];B[pc];W[sb];B[ra];W[qa];B[sd];W[sa];B[rb];W[ra];B[sf]
+     )
+    )
+    (
+     ;W[oe]LB[pe:A][qg:B]N[B 飛跨]
+     (
+      ;B[pe]N[A 衝];W[pf];B[of]LB[og:A][ph:B]
+      (
+       ;W[og]N[A 下打];B[nf];W[ph];B[ng]LB[oh:A][qg:B]
+       (
+        ;W[oh]N[A 粘];B[rf];W[qe];B[qd];W[re];B[rd];W[rg];B[mc]C[黑好。]
+       )
+       (
+        ;W[qg]N[B 提];B[oi]LB[od:A][qj:B]
+        (
+         ;W[od]N[A 貼];B[oc];W[nd];B[nc];W[md];B[qc];W[mc];B[qj]C[黑好。]
+        )
+        (
+         ;W[qj]N[B 飛];B[re]C[黑好。]
+        )
+       )
+      )
+      (
+       ;W[ph]N[B 夾];B[og];W[qg];B[re];W[qi];B[rh];W[qh];B[ne];W[mc];B[nb]C[黑好。]
+      )
+     )
+     (
+      ;B[qg]N[B 擋]C[晉士明奪角取勝之變。];W[re];B[rg];W[od];B[pe];W[pc]
+     )
+    )
+   )
+   (
+    ;B[of]N[B 鎮神頭];W[ph];B[oh];W[oi];B[nh];W[ni];B[mi];W[mh];B[mj];W[oe];B[pe];W[og]C[至此乃賈玄七著。]
+   )
+   (
+    ;B[qh]N[C 夾];W[of];B[oh]
+    (
+     ;W[nd]LB[ne:A][rd:B][oe:C]N[金井欄]
+     (
+      ;B[ne]N[A 跨]
+      (
+       ;W[oe];B[od];W[nc]LB[qe:A][nf:B]
+       (
+        ;B[qe]N[A 尖頂]C[蓮花角圖，凡五變。];W[re];B[rd];W[rf]LB[nf:A][ob:B]
+        (
+         ;B[nf]N[A 貼];W[ng];B[mg];W[og];B[nh];W[qg];B[rh];W[qc];B[qd];W[rc];B[pb];W[sd];B[ob];W[qb];B[nb];W[lc];B[le];W[mb]C[白勝。]
+        )
+        (
+         ;B[ob]LB[nb:A][me:B]N[B 跳下]
+         (
+          ;W[nb]N[A 擋];B[nf];W[ng];B[mg];W[og];B[nh];W[qg];B[rh];W[rc];B[sd];W[qc];B[qd]LB[pb:A][oc:B]
+          (
+           ;W[pb]N[A 夾];B[pg];W[pf];B[ph];W[oc];B[sf]C[黑勝。]
+          )
+          (
+           ;W[oc]N[B 衝];B[pc];W[pb]LB[qb:A][sf:B]
+           (
+            ;B[qb]N[A 打];W[oa];B[rb];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[kd];B[lc];W[kc];B[lb];W[kb];B[sf];W[pg];B[ph];W[la]C[白勝。]
+           )
+           (
+            ;B[sf]N[B 托];W[ph];B[pi];W[pg];B[se];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[mh];B[lg];W[kf];B[rg]C[黑勝。]
+           )
+          )
+         )
+         (
+          ;W[me]N[B 打];B[nf];W[ng];B[mf];W[og];B[le];W[lc];B[nb];W[mg];B[lf];W[jc]C[兩分。]
+         )
+        )
+       )
+       (
+        ;B[nf]LB[qd:A][ng:B]N[B 貼]
+        (
+         ;W[qd]N[A 頂];B[pe];W[pf];B[qe]LB[re:A][rd:B]
+         (
+          ;W[re]N[A 擋];B[rd];W[pc];B[qc];W[oc];B[qd];W[rf]LB[qb:A][rb:B]
+          (
+           ;B[qb];W[sd];B[sc];W[rb];B[ra];W[sb];B[se];W[pb];B[rg];W[sf];B[og];W[sd]
+          )
+          (
+           ;B[rb]N[B 尖];W[rh];B[ri];W[ng];B[mg];W[ph]LB[pi:A][og:B]
+           (
+            ;B[pi];W[nh];B[og];W[oi];B[pg];W[mh]LB[qg:A][ni:B][lh:C]
+            (
+             ;B[qg]N[A];W[le]C[白勝。]
+            )
+            (
+             ;B[ni]N[B 打];W[lf];B[me];W[le];B[md];W[lc]C[白勝。]
+            )
+            (
+             ;B[lh]N[C 扳];W[qg];B[ph];W[pj];B[qi];W[lg];B[me];W[le];B[md];W[ld];B[mc];W[mb];B[lc];W[kc];B[lb];W[kb];B[nb];W[mf];B[ma];W[qj];B[sh];W[rg]C[白勝。]
+            )
+           )
+           (
+            ;B[og]N[B 衝斷];W[qi];B[oi];W[rj]
+           )
+          )
+         )
+         (
+          ;W[rd]N[B 立];B[re];W[rf]LB[se:A][sf:B]
+          (
+           ;B[se]N[A 立];W[qb];B[pb];W[ob]LB[pa:A][pc:B][qc:C]
+           (
+            ;B[pa]N[A 立];W[pc];B[oc];W[qc];B[nb];W[mb];B[oa];W[sd]C[白勝。]
+           )
+           (
+            ;B[pc]N[B 接];W[pa];B[qc];W[rb];B[rc];W[sb];B[rg];W[sf];B[og];W[sc]C[白勝。]
+           )
+           (
+            ;B[qc]N[C 挖];W[rc];B[pc];W[rb];B[rg];W[sf];B[pa];W[oa]C[白勝。]
+           )
+          )
+          (
+           ;B[sf]N[B 扳];W[sg]
+           (
+            ;B[se];W[ng];B[mg];W[og];B[nh];W[rh]LB[ob:A][pb:B]
+            (
+             ;B[ob]N[A];W[qi];B[ph];W[rj];B[lf];W[le];B[kf];W[qb];B[pb];W[nb];B[rb];W[qa];B[sc];W[qc];B[sd];W[sb];B[sa];W[ra];B[pc];W[oa];B[pa];W[sb];B[rg];W[qg];B[sa];W[md];B[mf];W[sb];B[pg];W[rg];B[sa];W[jd];B[rc]C[黑好。]
+            )
+            (
+             ;B[pb]N[A];W[qi];B[ph];W[rj];B[mh];W[kc]C[兩分。]
+            )
+           )
+          )
+         )
+        )
+        (
+         ;W[ng]N[B 扳];B[mg]LB[og:A][rd:B]
+         (
+          ;W[og]N[A 接];B[nh]LB[rd:A][qd:B]
+          (
+           ;W[rd]LB[qe:A][rc:B][qd:C]N[A 飛]
+           (
+            ;B[qe];W[re]LB[pf:A][rf:B]
+            (
+             ;B[pf]N[A 挖];W[pg];B[rf];W[pe];B[qd];W[mh];B[lf];W[ph];B[pi];W[oi];B[ni];W[qi];B[oj];W[rg];B[qj];W[ri]C[白勝。]
+            )
+            (
+             ;B[rf]N[B 斷];W[pf];B[rg];W[qd];B[pc];W[qc];B[pb];W[pe];B[qb];W[rb];B[ra];W[ob];B[sb];W[rc]C[白勝。]
+            )
+           )
+           (
+            ;B[rc]N[B 碰];W[qd];B[qc];W[rh];B[ri];W[nb]LB[pb:A][ob:B]
+            (
+             ;B[pb]N[A 虎];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[kd];B[lc];W[kc];B[lb];W[kb];B[pe];W[pf];B[rf];W[rg];B[qe];W[re];B[sf];W[qg];B[ph];W[sg];B[ob];W[la]C[白勝。]
+            )
+            (
+             ;B[ob]N[B 關];W[rg];B[qi];W[oc];B[pc];W[pb]C[白勝。]
+            )
+           )
+           (
+            ;B[qd]LB[qg:A][rc:B]N[C 頂]
+            (
+             ;W[qg]LB[rh:A][rc:B]N[A 雙]
+             (
+              ;B[rh]N[A 立];W[rc];B[re];W[qe];B[rf];W[rg];B[pg];W[sg];B[sh];W[pe]C[白勝。]
+             )
+             (
+              ;B[rc]N[B 扳];W[rh];B[qi];W[ri];B[qk];W[rj];B[pl];W[rb]LB[re:A][qc:B]
+              (
+               ;B[re]N[A 打];W[qc];B[sd];W[pb];B[rf];W[rg];B[rk];W[qe]C[白勝。]
+              )
+              (
+               ;B[qc]N[B 接];W[re];B[sb];W[pb];B[qb];W[nb]LB[ra:A][le:B]
+               (
+                ;B[ra];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[kd];B[lc];W[kc];B[lb];W[kb]C[白勝。]
+               )
+               (
+                ;B[le]N[B 接];W[kc];B[ra]C[兩分。]
+               )
+              )
+             )
+            )
+            (
+             ;W[rc]N[B 長];B[re];W[qg];B[qe];W[rh];B[qi];W[ri];B[qk];W[rj];B[pl];W[pb];B[ob];W[qb];B[oc];W[nb]C[白勝。]
+            )
+           )
+          )
+          (
+           ;W[qd]N[B 頂];B[pe];W[qg];B[qe];W[rh];B[qi];W[re];B[rd];W[ri]LB[rj:A][qk:B]
+           (
+            ;B[rj]N[A 扳];W[mh];B[lf];W[qj];B[rk];W[qk];B[ql];W[pl];B[qm];W[ni];B[ph];W[mj];B[oj];W[ok];B[nk];W[nl];B[pi];W[pk];B[mk];W[nj];B[lh];W[mi];B[lj];W[lk];B[ml];W[li];B[pm];W[nm];B[pf];W[pg];B[rg];W[rf];B[sg]C[此乃四?]
+           )
+           (
+            ;B[qk]N[B 關];W[rj];B[pl];W[qc];B[rf];W[rg];B[se];W[pb];B[rc];W[rb];B[rk];W[pc]C[白勝。]
+           )
+          )
+         )
+         (
+          ;W[rd]N[B 飛];B[qe];W[pe];B[og];W[pf];B[qd];W[re];B[rf];W[rg];B[sf];W[sg];B[qg];W[se];B[rf];W[sf];B[pg];W[rf];B[qb];W[rc];B[ob];W[nb];B[rb];W[ri];B[rh];W[sh];B[qj];W[rj];B[rk];W[qk];B[rl];W[qi];B[pj];W[oi]C[此乃晉士明所弈變化。]
+         )
+        )
+       )
+      )
+     )
+     (
+      ;B[rd]LB[re:A][qe:B]N[B 關]
+      (
+       ;W[re]LB[nc:A][ob:B]N[A 尖]
+       (
+        ;B[nc]N[A 托];W[mc];B[md]LB[ne:A][od:B][oc:C]
+        (
+         ;W[ne]N[A 退];B[lc];W[mb];B[oc];W[lb];B[kc];W[jc];B[kb];W[ld];B[me];W[mf];B[le];W[kd];B[lf];W[jb];B[ng];W[nf];B[mg];W[rc];B[sd]LB[qc:A][qd:B]
+         (
+          ;W[qc];B[qd];W[pb];B[pf];W[pg];B[pe];W[og];B[ph];W[qg];B[rg];W[rf];B[rh];W[ob];B[sf];W[se];B[od]C[黑勝。]
+         )
+         (
+          ;W[qd]N[B 挖];B[pe];W[qc];B[pf]C[黑好。]
+         )
+        )
+        (
+         ;W[od]N[B 長];B[oc];W[pc]LB[pb:A][qc:B]
+         (
+          ;B[pb]N[A 下打];W[qc];B[qd];W[qb];B[ob];W[sb];B[ra];W[sd];B[me];W[nf];B[lc];W[mb];B[lb];W[mf]C[兩分。]
+         )
+         (
+          ;B[qc]N[B 上打];W[pb];B[mb];W[lc];B[ob];W[pe];B[qd];W[lb];B[na];W[le]C[兩分。]
+         )
+        )
+        (
+         ;W[oc]LB[od:A][pe:B]N[C 上打]
+         (
+          ;B[od]N[A 打];W[ne];B[nb];W[lc];B[pc];W[le]C[兩分。]
+         )
+         (
+          ;B[pe]N[B 并];W[nb];B[pf];W[qc];B[pc];W[pb];B[rc];W[qb];B[qd]C[兩分。]
+         )
+        )
+       )
+       (
+        ;B[ob]N[B 飛下];W[rc];B[sd];W[nb];B[nc];W[oc];B[mc];W[pc];B[od];W[qd];B[ne];W[lc];B[pb];W[qc];B[mb];W[md];B[ld];W[me];B[kc]C[兩分。]
+       )
+      )
+      (
+       ;W[qe]N[B 并];B[nc];W[oc];B[od];W[qd];B[qc];W[nb];B[mc];W[pc]C[白勝。]
+      )
+     )
+     (
+      ;B[oe]LB[pe:A][ne:B]N[C 尖頂]
+      (
+       ;W[pe]N[A 擠]C[被綽角圖，凡五變。];B[ne];W[od]LB[md:A][qd:B]
+       (
+        ;B[md]N[A 扳];W[pc];B[qd]LB[ng:A][qc:B]
+        (
+         ;W[ng]LB[me:A][nf:B]N[A 尖]
+         (
+          ;B[me]N[A 接]
+          (
+           ;W[qb]LB[rf:A][qe:B]
+           (
+            ;B[rf]N[A 托];W[qe];B[oc];W[nc];B[qc];W[rc];B[rd];W[re]C[白勝。]
+           )
+           (
+            ;B[qe]N[B 打];W[pf];B[rf];W[rg];B[re];W[qg];B[rb];W[ob];B[rc];W[mc];B[lc];W[mb]C[兩分。]
+           )
+          )
+         )
+         (
+          ;B[nf]N[B 擠];W[qc];B[re];W[rf];B[rc];W[mc];B[og];W[rb];B[pf];W[qe];B[rd];W[rh];B[ri];W[rg];B[lc];W[ld];B[me];W[nc];B[qg];W[sc];B[sh];W[sd];B[kc]C[黑好。]
+         )
+        )
+        (
+         ;W[qc]N[B 長];B[re];W[rf];B[rc];W[nb];B[qb];W[pb];B[pa];W[nc];B[sb];W[ra];B[qa];W[oa];B[rb];W[ng];B[me];W[kc]C[兩分。]
+        )
+       )
+       (
+        ;B[qd]N[B 長];W[ng];B[me];W[lc];B[md];W[mc];B[ob];W[nc];B[ke];W[ic]C[兩分。]
+       )
+      )
+      (
+       ;W[ne]N[B 攔];B[pf];W[pg];B[pe];W[ph];B[og];W[nf];B[pi];W[qg]LB[ri:A][qi:B][rh:C]C[A、B爲穿心角圖，C立爲立仁角圖，各十一變。]
+       (
+        ;B[ri]LB[oi:A][rd:B][rh:C]N[A 虎]
+        (
+         ;W[oi]N[A 斷];B[nh];W[rd];B[rg];W[rf];B[qd];W[sg];B[rh];W[pj];B[qi];W[re];B[rc];W[ni];B[mh];W[qj];B[rj];W[rk];B[qk];W[rl];B[oj];W[pk];B[nj];W[sj];B[oc];W[si];B[mi];W[oi];B[ni];W[sh];B[oi];W[nc];B[nb];W[mb];B[ob];W[ol]C[兩分。]
+        )
+        (
+         ;W[rd]LB[rg:A][qd:B]N[B 飛]
+         (
+          ;B[rg]N[A 扳];W[rf];B[qd];W[oi];B[nh];W[sg];B[rh];W[pj];B[qi];W[re];B[rc];W[ni];B[mh];W[qj];B[rj];W[rk];B[qk];W[rl];B[sh];W[qc];B[pc];W[qb];B[rb];W[pb];B[ob];W[oj];B[sf];W[oc];B[qa];W[se];B[pa];W[sj]
+         )
+         (
+          ;B[qd]N[B 頂];W[re];B[rc];W[oi];B[nh];W[rg];B[oj];W[oc];B[pb];W[rb];B[qc];W[sb];B[sc];W[qb];B[ob];W[nb];B[qa];W[oa];B[ra];W[sf]C[白勝。]
+         )
+        )
+        (
+         ;W[rh]N[C 打]C[兩無入圖。];B[qi];W[rd];B[rc];W[qd];B[pc];W[qc];B[qb];W[rb];B[qe];W[re];B[rf];W[rg];B[sf]
+        )
+       )
+       (
+        ;B[qi]N[B 接];W[rd];B[qd];W[re];B[rc];W[oi];B[nh];W[rh];B[ri];W[rg];B[sf];W[oj]LB[si:A][rk:B]
+        (
+         ;B[si];W[rb];B[qb];W[sc];B[qc];W[sb];B[ra];W[qj]LB[qk:A][pj:B][rj:C]
+         (
+          ;B[qk];W[ok]LB[rk:A][mi:B]
+          (
+           ;B[rk]N[A 并];W[mh];B[ni];W[mj];B[mg];W[mi];B[ng];W[lg];B[mf];W[le]C[白勝。]
+          )
+          (
+           ;B[mi]N[B 尖];W[rk];B[pj];W[pk];B[rj];W[ql];B[nb];W[rl];B[lc]C[兩分。]
+          )
+         )
+         (
+          ;B[pj]N[B 衝断];W[pk];B[qk];W[ok];B[qe];W[rf];B[se];W[sd];B[qa];W[mh];B[ni];W[mj];B[sa];W[rj];B[rk];W[mi]C[白勝。]
+         )
+         (
+          ;B[rj]N[C 長出];W[ok];B[mi];W[qk];B[rk];W[rl];B[nb]C[白好。]
+         )
+        )
+        (
+         ;B[rk]LB[qc:A][pk:B]N[B 跳]
+         (
+          ;W[qc]N[A 斷];B[qb];W[rb];B[pc];W[sc];B[qc];W[sb];B[ra];W[oc]LB[sh:A][sd:B]
+          (
+           ;B[sh]N[A 扳];W[sg];B[si];W[pa];B[qa];W[od];B[ob];W[nb];B[oa];W[na];B[pb]C[兩分。]
+          )
+          (
+           ;B[sd]N[B 撲];W[se];B[qa];W[pa];B[ob];W[nb];B[sa];W[od];B[sd];W[sc];B[sb];W[oa];B[sh];W[sg];B[si];W[pb]
+          )
+         )
+         (
+          ;W[pk]N[B 尖];B[sd];W[qc];B[qb];W[rj];B[qj];W[oc];B[pc];W[mi];B[mh];W[lh];B[mg];W[lg];B[mf];W[le];B[sh];W[lf];B[sg];W[rl]C[白棄子取外勢。]
+         )
+        )
+       )
+       (
+        ;B[rh]N[C 立];W[oi]LB[nh:A][mg:B]
+        (
+         ;B[nh]N[A 長出];W[qi];B[pj];W[ri];B[rj];W[rg];B[qj];W[sh];B[re];W[rc];B[rd];W[pc];B[oc];W[pb];B[od];W[ob];B[nc];W[mc];B[nb];W[mb];B[ma];W[kb];B[rb];W[sc];B[oa];W[qc];B[pa];W[qa];B[na];W[se];B[sd];W[qe];B[qd];W[la]C[白勝。]
+        )
+        (
+         ;B[mg]N[B 跳出];W[qi];B[pj];W[ri];B[rj]LB[rg:A][re:B]
+         (
+          ;W[rg]N[A 吃];B[qj];W[sh]LB[re:A][qc:B]
+          (
+           ;B[re]N[A 跳下];W[rc]LB[qe:A][rd:B][qd:C]
+           (
+            ;B[qe]N[A 接];W[pc];B[oc];W[pb];B[od];W[nc];B[ob];W[nb];B[oa];W[pa];B[qc];W[qb];B[rb];W[qd];B[ra];W[sb];B[rd];W[na];B[qc];W[ng];B[nh];W[qd];B[sc];W[sd];B[qc];W[mh];B[ni];W[qd];B[se];W[qc];B[sc];W[nj];B[mi];W[sd];B[lh]C[白勝角，黑取外勢。]
+           )
+           (
+            ;B[rd]N[B 雙];W[pc];B[oc];W[pb];B[od];W[ob];B[nc];W[mc];B[mb];W[lc];B[nb];W[lb]LB[rb:A][sc:B]
+            (
+             ;B[rb]N[A 夾];W[sc];B[oa];W[qc]LB[pa:A][sb:B]
+             (
+              ;B[pa]N[A 長入];W[na];B[ma];W[qa];B[na];W[se]C[白勝。]
+             )
+             (
+              ;B[sb]N[B 立];W[na];B[ma];W[ra];B[pa];W[rf];B[qd];W[qa];B[na]C[黑勝。]
+             )
+            )
+            (
+             ;B[sc]N[B 扳];W[rb];B[sb];W[qc];B[qa];W[sd];B[se];W[ra];B[oa];W[pa];B[qd];W[rf];B[sd];W[sf];B[sa];W[na];B[ma];W[ng];B[nh];W[mh];B[ni];W[la];B[oa];W[mi];B[qb];W[nj];B[qn]C[黑勝角，白取外勢。]
+            )
+           )
+           (
+            ;B[qd]N[C 連];W[rd];B[qe];W[qb]LB[oc:A][pb:B]
+            (
+             ;B[oc]N[A 尖];W[nb]LB[sf:A][pc:B]
+             (
+              ;B[sf]N[A 尖];W[pc]C[白勝。]
+             )
+             (
+              ;B[pc]N[B 團];W[sf];B[se];W[rf];B[pa];W[sb];B[ra];W[qa];B[sd];W[pb];B[ob];W[nc]C[白勝。]
+             )
+            )
+            (
+             ;B[pb]N[B 靠下];W[ob];B[pa];W[se];B[sf];W[sd];B[rf];W[qa];B[oc];W[nb];B[sb];W[rb];B[qc];W[oa];B[pc];W[nc];B[ra];W[sa]
+            )
+           )
+          )
+          (
+           ;B[qc]N[B 尖];W[re];B[oc];W[nc];B[nb];W[mb];B[ob]C[兩分。]
+          )
+         )
+         (
+          ;W[re]LB[rg:A][rd:B]N[B 尖]
+          (
+           ;B[rg]N[A 橫長];W[rf];B[rd];W[sg];B[qj];W[sh];B[oc];W[nc];B[nb];W[mb];B[ob]C[兩分。]
+          )
+          (
+           ;B[rd]N[B 攔];W[rg];B[qj];W[qc];B[qd];W[pc];B[si];W[sd];B[rc];W[rb];B[sb];W[qb];B[sg];W[od];B[sf];W[se]C[白勝。]
+          )
+         )
+        )
+       )
+      )
+     )
+    )
+   )
+   (
+    ;B[mc]LB[kc:A][jc:B]N[大飛]
+    (
+     ;W[kc]N[A];B[qe];W[pf];B[qk];W[qc];B[rf];W[rg];B[pc];W[ob];B[pb];W[re];B[rd];W[sf];B[qd];W[mb];B[cf]
+    )
+    (
+     ;W[jc]N[B];B[qe];W[pf];B[qk];W[qi];B[hc];W[qc];B[qd];W[nc];B[nd];W[ob];B[oc];W[nb];B[pc];W[mb];B[lc];W[lb];B[pb]
+    )
+   )
+   (
+    ;B[pf]N[倚蓋]
+   )
+  )
+  (
+   ;AB[dp]
+   (
+    ;AB[jj]N[受三子譜]
+    (
+     ;W[qf]
+     (
+      ;B[pg]LB[pf:A][oe:B]N[倒垂蓮]C[倒垂蓮
+此棄邊取腹之式，因有中子，攔白不讓出頭，則腹勢可張。受子用之更利，但須善應耳。學者細加玩味，熟記在胸，神而明之，變化在人，白自無所施其巧矣。]
+      (
+       ;W[pf]N[A 沖斷];B[of];W[og]LB[qg:A][oh:B]
+       (
+        ;B[qg]N[A 貼];W[rg]LB[rh:A][oh:B][rf:C]
+        (
+         ;B[rh]N[A 擋];W[re];B[sg]LB[rf:A][sf:B]
+         (
+          ;W[rf]N[A 接];B[qi]LB[pi:A][oh:B]
+          (
+           ;W[pi]N[A 飛];B[oh];W[ng];B[nf];W[mf];B[mg];W[nh];B[oi]LB[ph:A][ni:B][mh:C]
+           (
+            ;W[ph]N[A 沖斷];B[qh];W[pj];B[oj];W[ok];B[pk];W[qj];B[rj];W[qk];B[mh];W[ni];B[nj];W[mi];B[nk]C[妙。];W[lh];B[ql]C[妙。];W[me];B[nd]LB[md:A][qd:B][qc:C]
+            (
+             ;W[md]LB[qc:A][qd:B]N[A 長]
+             (
+              ;B[qc]LB[oe:A][qd:B]N[A 尖]
+              (
+               ;W[oe]N[A 打];B[ne];W[od];B[nc];W[oc]LB[ob:A][mc:B]
+               (
+                ;B[ob]N[A 扳];W[nb];B[mc];W[pb]LB[lc:A][pe:B][mb:C]
+                (
+                 ;B[lc]N[A 長];W[kd];B[pe];W[pc];B[ld];W[ke];B[le];W[lf];B[kc]LB[jc:B][qd:A]
+                 (
+                  ;W[qd]N[A 斷吃];B[kf];W[lg];B[je]
+                 )
+                 (
+                  ;W[jc]N[B 扳];B[jb];W[ic];B[ib];W[hc];B[qb];W[oa];B[qd];W[mb];B[kb];W[sb];B[rd];W[sd];B[se];W[sf];B[sh];W[sc];B[ra];W[pa];B[qe];W[se];B[rb];W[qa];B[hb];W[gc];B[gb];W[lb];B[kf];W[lg];B[jf];W[ie];B[fc];W[fd];B[ed];W[ec];B[fb];W[fe];B[jh];W[mk]C[好。];B[dd]C[大。]
+                 )
+                )
+                (
+                 ;B[pe]N[B 斷];W[pc];B[mb]LB[oa:A][lc:B]
+                 (
+                  ;W[oa]N[A 提];B[ld];W[ke];B[qd];W[rd];B[qb];W[qa];B[ra];W[rc];B[pa];W[rk];B[rl];W[qa];B[rb];W[sb];B[pa];W[sk];B[sl];W[qa];B[ma];W[qe];B[pa];W[pl];B[sj];W[qa];B[le];W[lf];B[pa];W[po];B[pm];W[qa];B[kf];W[lg];B[pa];W[ol];B[nl];W[qa];B[kd];W[sa];B[je]
+                 )
+                 (
+                  ;W[lc]N[B 扳];B[kc]LB[ld:A][lb:B]C[妙。]
+                  (
+                   ;W[ld]N[A 接];B[qd];W[oa];B[lb];W[rd];B[qb];W[rb];B[kd];W[lg];B[qa];W[pa];B[ma];W[kb];B[jb];W[ka];B[ja];W[rc];B[dd]
+                  )
+                  (
+                   ;W[lb]N[B 衝]C[差。];B[na];W[qd];B[pa];W[qb];B[rb];W[rc];B[qa];W[qe];B[lg];W[kg];B[lf]LB[kd:A][kf:B]
+                   (
+                    ;W[kd]N[A 扳];B[ke];W[ld];B[li];W[mj];B[mk];W[lj];B[lk];W[ki];B[kj];W[li];B[ji];W[kh];B[je];W[ih];B[jd];W[jc];B[jb]C[妙。];W[kb];B[ib]C[妙。];W[ic];B[hc];W[hd];B[id];W[kc];B[la]C[細。];W[hb]
+                    (
+                     ;B[gc];W[ja];B[jh];W[jg];B[ig];W[if];B[hg]
+                    )
+                   )
+                   (
+                    ;W[kf]N[B 貼長];B[le];W[ld];B[ke];W[je];B[kd];W[kb];B[li];W[mj];B[mk];W[lj];B[kh]
+                   )
+                  )
+                 )
+                )
+                (
+                 ;B[mb]N[C 打];W[oa];B[ld];W[lg];B[pe];W[pc];B[qd];W[rd];B[qb];W[qa];B[ra];W[rc];B[pa];W[rk];B[rl];W[qa];B[rb];W[sb];B[pa];W[sk];B[sl];W[qa];B[ma];W[qe];B[pa];W[pl];B[sj];W[qa];B[le];W[sa];B[lf];W[mg];B[jg]
+                )
+               )
+               (
+                ;B[mc]LB[lc:A][ob:B]N[B 長]C[先行好。]
+                (
+                 ;W[lc]N[A 扳];B[ob]LB[nb:A][pe:B]
+                 (
+                  ;W[nb]N[A 打];B[mb];W[pb]LB[pc:A][na:B]
+                  (
+                   ;B[pc]LB[pe:A][oa:B]N[A 斷]C[好。]
+                   (
+                    ;W[pe]N[A 接];B[na];W[qb];B[rc];W[rb];B[rd];W[sd];B[sc];W[se];B[sb];W[qd];B[qe];W[rk];B[rl];W[qd];B[ld];W[kd];B[qe];W[sk];B[sl];W[qd];B[le];W[lf];B[qe];W[pl];B[sj];W[qd];B[ke];W[kf];B[qe];W[po];B[pm];W[qd];B[je];W[lb];B[qe];W[ol];B[nl];W[qd];B[jd];W[la];B[qe];W[om];B[on];W[qd];B[ma];W[pa];B[qe];W[nm];B[mm];W[qd];B[mj];W[li];B[qe];W[nn];B[no];W[qd];B[kb];W[oa]
+                   )
+                   (
+                    ;W[oa]N[B 提]C[差。];B[pe];W[ob];B[lb];W[kc];B[kb];W[jb];B[jc];W[ib];B[lg]C[妙。]
+                   )
+                  )
+                  (
+                   ;B[na]N[B 提];W[pc];B[kc]C[好。];W[kd];B[lb];W[ld];B[jc];W[qd]
+                  )
+                 )
+                 (
+                  ;W[pe]N[B 接]C[接老成。];B[lb]LB[kc:A][pb:B]
+                  (
+                   ;W[kc]N[A 長];B[pb];W[qd];B[rc];W[pc];B[kb];W[jc]
+                  )
+                  (
+                   ;W[pb]N[B 扳]C[差。];B[lg]C[出，妙。];W[kg];B[lf];W[kf];B[le];W[ld];B[ke];W[je];B[kd];W[kc];B[jd];W[kb];B[li];W[mj];B[mk];W[lj];B[lk];W[ki];B[kj];W[li];B[ji];W[kh];B[jf];W[jg];B[ig];W[if];B[jh]
+                  )
+                 )
+                )
+                (
+                 ;W[ob]N[B 立];B[lc];W[ld];B[kd];W[ke];B[pe];W[rc];B[pb];W[qd];B[nb];W[rb];B[kf];W[lg];B[je]
+                )
+               )
+              )
+              (
+               ;W[qd]N[B 擠]C[正。];B[nc];W[rc];B[lb];W[kc];B[qb];W[pe];B[od];W[kb];B[lc];W[kd];B[rb];W[sb];B[dc];W[la];B[mb];W[ob];B[pb]
+              )
+             )
+             (
+              ;B[qd]N[B 并];W[oe];B[ne];W[od];B[nc];W[oc];B[mc];W[ob]C[好。];B[lc];W[ld];B[kd];W[ke];B[pe];W[rc];B[qc];W[qb];B[pb];W[rb];B[oa];W[rd];B[nb];W[jd];B[kc];W[id];B[je];W[jf]C[差。];B[lg]C[妙。]
+             )
+            )
+            (
+             ;W[qd]N[B 尖頂]C[穩。];B[md];W[ld];B[lc];W[kd];B[kc];W[jd];B[qb];W[pc];B[oc];W[pe];B[od];W[qc];B[pb];W[rb];B[ra];W[rc];B[ib]
+            )
+            (
+             ;W[qc]N[C 點三三];B[qd];W[rd];B[qb]LB[pc:A][oc:B]C[好。]
+             (
+              ;W[pc]N[A 長];B[oc];W[pb];B[ob];W[rb];B[kc];W[ke];B[ic];W[lc];B[lb];W[kb];B[kd]C[妙。]
+             )
+             (
+              ;W[oc]N[B 點]C[好。];B[pc];W[od];B[ne];W[oe];B[nc];W[ob];B[nb];W[pb];B[ld];W[kf];B[ic]
+             )
+            )
+           )
+           (
+            ;W[ni]N[B 貼長]C[正。];B[oj];W[qd];B[nd];W[nj];B[ok];W[me];B[md];W[lg];B[qb];W[pc];B[oc];W[pe];B[od];W[qc];B[pb];W[rb];B[ra];W[rc];B[jd]LB[jg:A][ml:B]
+            (
+             ;W[jg]N[A 關];B[nk];W[mk];B[lk]C[妙。]
+            )
+            (
+             ;W[ml]N[B 飛];B[li];W[mi];B[jg]
+            )
+           )
+           (
+            ;W[mh]N[C 打];B[me]LB[qd:A][lg:B]
+            (
+             ;W[qd]N[A 尖頂];B[lf]C[好。];W[ph];B[qh];W[pj];B[lh];W[nj];B[qk];W[pk];B[li];W[mj];B[ql]
+            )
+            (
+             ;W[lg]N[B 提];B[qd];W[rd];B[rc];W[od]C[好。];B[ne];W[oc]C[好。];B[qb];W[oe];B[pe];W[ld]C[實外好，黑得大角。];B[le];W[ke];B[kf];W[lf];B[kd];W[je];B[md];W[lc];B[mc];W[lb];B[mb];W[nb];B[ma];W[jd];B[sd]
+            )
+           )
+          )
+          (
+           ;W[oh]LB[pi:A][nf:B]N[B 長]
+           (
+            ;B[pi]LB[nf:A][oe:B]N[A 雙]
+            (
+             ;W[nf]N[A 右打];B[oe];W[qd];B[qb];W[pc];B[oc]LB[qc:A][pe:B]
+             (
+              ;W[qc]N[A 接];B[pb];W[rb];B[ra];W[rc];B[ne];W[mf];B[pe]C[弱。];W[me]C[好。];B[mc];W[nd];B[nc];W[md];B[od];W[sd];B[jc];W[nj];B[ql]
+             )
+             (
+              ;W[pe]N[B 打]C[不宜打。];B[od];W[qc];B[pb];W[rb];B[ra];W[rc];B[nj];W[mi];B[mj];W[md];B[mc];W[lc];B[me];W[ne];B[ld];W[nd];B[nc];W[mf];B[kc];W[lb];B[kb]
+             )
+            )
+            (
+             ;W[oe]N[B 下打];B[nf]LB[pe:A][od:B][ne:C]
+             (
+              ;W[pe]N[A 接];B[ne];W[nd];B[md];W[nc];B[od];W[qd];B[mc];W[ob];B[nb];W[oc]
+             )
+             (
+              ;W[od]N[B 長]C[太強。];B[pe]LB[pc:A][qc:B]C[得算。]
+              (
+               ;W[pc]N[A 扳];B[qd];W[qc];B[rd];W[sd]C[好。];B[sc];W[se];B[rc];W[rb];B[sb];W[qa];B[oc];W[sa];B[ra];W[ph];B[nd];W[qh];B[rj]
+              )
+              (
+               ;W[qc]N[B 點三三];B[pc];W[qb];B[nc];W[ne];B[me];W[mf];B[ng];W[md];B[le];W[nd];B[ld];W[mc];B[lc];W[mb];B[nb]C[妙，以有中子故也。]
+              )
+             )
+             (
+              ;W[ne]N[C 貼長]C[好。];B[mf];W[me]C[好。];B[lf]LB[pe:A][oc:B]
+              (
+               ;W[pe]N[A 粘];B[nc];W[lc];B[mc]LB[ld:A][lb:B]
+               (
+                ;W[ld]N[A 退];B[rc];W[qc];B[qb];W[pb];B[pc];W[qd];B[rd];W[qe];B[ra];W[sb];B[rb];W[oc];B[ob];W[od];B[pa];W[nb];B[pc];W[mb];B[ic]C[活角巧。]
+               )
+               (
+                ;W[lb]N[B 立]C[好。];B[ld];W[md];B[le];W[oc];B[ob];W[pb]C[妙。];B[pc];W[od];B[jc];W[jb];B[ib];W[kb];B[ic];W[nb]C[黑棄角得外勢，又得先手，有見。然則白角太大。]
+               )
+              )
+              (
+               ;W[oc]N[B 關]C[不如實粘。];B[pc]LB[ob:A][pe:B]
+               (
+                ;W[ob]N[A 立];B[pe];W[rc];B[le]LB[mc:A][lc:B]
+                (
+                 ;W[mc]N[A 關];B[rd]LB[sd:A][qd:B][qc:C]C[細。]
+                 (
+                  ;W[sd]N[A 外打];B[kc]LB[qp:A][pp:B][kb:C]
+                  (
+                   ;W[qp]N[A 小目];B[pb];W[qb]LB[pa:A][od:B]
+                   (
+                    ;B[pa]N[A 立];W[qd];B[od];W[nd];B[mb]C[好。];W[lb];B[na]C[好。];W[lc];B[kb];W[la];B[oa];W[nc];B[ld];W[qc];B[ka];W[qa];B[qn]
+                   )
+                   (
+                    ;B[od]N[B 衝]C[彼此要著。];W[nd];B[oa];W[mb];B[lb];W[na];B[nc];W[nb];B[ld];W[md];B[qn]
+                   )
+                  )
+                  (
+                   ;W[pp]N[B 星];B[pb];W[qb];B[pa];W[od];B[qc];W[rb];B[qe];W[qd];B[nq];W[oq];B[rd];W[se];B[sc];W[qd];B[np];W[pn];B[rd];W[sb];B[sh];W[oa];B[sf];W[qd];B[or];W[pr];B[rd];W[sc];B[qa];W[qd];B[op];W[pq];B[rd];W[ph];B[qh];W[qd];B[on];W[pm];B[rd];W[po];B[om];W[pl];B[ol];W[qd];B[ok];W[ra];B[dc]
+                  )
+                  (
+                   ;W[kb]N[C 托]C[是。總見飛封後，白宜應。];B[jb];W[lb];B[jc]
+                  )
+                 )
+                 (
+                  ;W[qd]N[B 內打]C[不宜內打。];B[qc];W[sd];B[rb];W[sb];B[qe];W[rd];B[qb];W[qa];B[sa]C[妙。];W[pb];B[sc];W[ph];B[qh];W[sb];B[qp];W[ra];B[kc]
+                 )
+                 (
+                  ;W[qc]N[C 長]C[更差。];B[qd];W[sd];B[qb];W[rb];B[pb];W[ra];B[sc];W[sb];B[se];W[sf];B[sh]
+                 )
+                )
+                (
+                 ;W[lc]N[B 飛];B[pb];W[qb];B[pa];W[qc];B[mc]C[好。];W[mb];B[ld];W[md];B[kc];W[lb];B[od];W[nc];B[nd];W[mc];B[kb];W[na]
+                )
+               )
+               (
+                ;W[pe]N[B 粘]C[安逸。];B[nc];W[od];B[ob];W[nb];B[mb];W[pb];B[na];W[qb];B[kd]
+               )
+              )
+             )
+            )
+           )
+           (
+            ;B[nf]N[B 長]C[有力。];W[pi];B[qh];W[qd]LB[pj:A][ql:B][qk:C][nd:D]
+            (
+             ;B[pj]N[A 扳];W[oj]LB[pk:A][ni:B]
+             (
+              ;B[pk]N[A 長]
+              (
+               ;W[ok];B[ni];W[oi];B[pm];W[pl];B[ql];W[ol];B[qn];W[mg];B[pc];W[qb];B[qc];W[rc];B[pb];W[pe];B[nd]LB[nn:A][mi:B]
+               (
+                ;W[nn]N[A 飛];B[rb];W[sb];B[ng];W[nh];B[mh]C[斷好。]
+               )
+               (
+                ;W[mi]N[B 夾];B[lh];W[mh];B[nn]C[大。]
+               )
+              )
+             )
+             (
+              ;B[ni]N[B 刺]C[細，先點得算。];W[oi];B[ok]C[竟扳妙。];W[pk];B[qj];W[nj];B[ol]LB[mg:A][mk:B]
+              (
+               ;W[mg]LB[mk:A][nd:B][pc:C]N[A 跳]
+               (
+                ;B[mk]N[A 跳枷];W[mj];B[lk];W[mf];B[nd];W[ld];B[qb];W[pc];B[oc];W[pe];B[od];W[qc];B[pb];W[rb];B[ra];W[rc];B[lb]C[好。];W[kb];B[le]C[巧。];W[me];B[kc];W[lc];B[mb]
+               )
+               (
+                ;B[nd]N[B 跳補];W[ql];B[qm];W[rm];B[rl];W[pm];B[qn];W[pl];B[rk];W[pn];B[po];W[qo];B[rn];W[ro];B[sm];W[oo];B[pp];W[qq];B[qb];W[pc];B[oc];W[pe];B[od];W[qc];B[pb];W[rb];B[ra];W[rc];B[pq];W[qr];B[pr];W[qp];B[no]
+               )
+               (
+                ;B[pc]N[C 立補];W[qb];B[pb];W[pe];B[nd];W[ql];B[qm];W[rm];B[rl];W[qn];B[pm];W[rk];B[qk];W[sl];B[mk];W[mj];B[qp];W[pn];B[ro];W[rn];B[op];W[nn];B[lk]
+               )
+              )
+              (
+               ;W[mk]N[B 尖]C[好。];B[qm];W[nd];B[mg];W[mh];B[pc];W[pe];B[qc];W[oe];B[ob];W[nb];B[rc]C[黑活邊，縱白出亦一法。]
+              )
+             )
+            )
+            (
+             ;B[ql]N[B 拆二];W[mh];B[pc];W[qb];B[pb];W[pe];B[nd];W[ol];B[pn];W[qp];B[qo];W[pp];B[nn];W[mq];B[kg]
+            )
+            (
+             ;B[qk]N[C 關];W[ok];B[pm];W[qo];B[qn];W[po];B[nl];W[mh];B[lg];W[ki];B[pb];W[qb];B[jh]
+            )
+            (
+             ;B[nd]LB[qk:A][pk:B]N[D 跳補]
+             (
+              ;W[qk]N[A 飛下];B[rl]LB[rk:A][ql:B]C[出法極妙。]
+              (
+               ;W[rk]N[A 立];B[pj];W[oj];B[pk]
+              )
+              (
+               ;W[ql]N[B 壓];B[pj];W[oj];B[qj];W[ok];B[pk];W[pl];B[rk];W[qn];B[rm];W[on]C[總見黑25之妙。]
+              )
+             )
+             (
+              ;W[pk]N[B 關];B[ql]C[妙。];W[qk];B[rk]LB[rj:A][rl:B]C[細。]
+              (
+               ;W[rj]N[A 扳];B[qj]C[細。];W[rl];B[pj];W[oj];B[ok];W[sk];B[pl];W[rk];B[nj];W[oi];B[ni];W[nh];B[mh];W[nk];B[ol];W[mi];B[mj];W[mg];B[lh];W[ng];B[lf]C[妙。]
+              )
+              (
+               ;W[rl]N[B 斷];B[qj];W[pl]C[妙。]
+              )
+             )
+            )
+           )
+          )
+         )
+         (
+          ;W[sf]N[B 開劫];B[qi];W[oh];B[nf];W[pi];B[qh];W[qd]LB[pj:A][nd:B]
+          (
+           ;B[pj]N[A 扳];W[oj];B[ni];W[oi];B[ok];W[pk];B[qj];W[nj];B[ol];W[mk]C[好。];B[qm];W[nd];B[mg];W[mh];B[pc];W[pe];B[qc];W[oe];B[ob];W[nb];B[rc]C[黑活邊角，縱白出亦一法。]
+          )
+          (
+           ;B[nd]N[B 跳補];W[qk];B[rl]C[出法極妙。];W[ql];B[pj];W[oj];B[qj];W[ok];B[pk];W[pl];B[rk];W[qn];B[rm];W[on]C[總見黑25之妙。]
+          )
+         )
+        )
+        (
+         ;B[oh]N[B 上打];W[ng];B[nf];W[mf];B[mg];W[nh];B[qi]LB[qd:A][oe:B]
+         (
+          ;W[qd]N[A 托];B[nd];W[pc];B[oc];W[pe];B[od];W[pb];B[qc]C[先斷好。];W[rc];B[ob];W[qb];B[lg]C[大。];W[oi];B[qh];W[mi];B[pk];W[nk];B[qn]
+         )
+         (
+          ;W[oe]N[B 打];B[ne];W[od];B[nd];W[oc];B[nc];W[nb];B[pe];W[pc];B[mb];W[ob];B[rf];W[qe];B[re];W[qd];B[lc];W[rh];B[ri];W[rd];B[lg];W[ni];B[qh];W[nk];B[mj];W[nj];B[qm]
+         )
+        )
+        (
+         ;B[rf]N[C 斷];W[re];B[qe];W[sf];B[pe];W[rf];B[qi]LB[pc:A][pi:B]
+         (
+          ;W[pc]N[A 頂]C[好。];B[nf];W[oh];B[pi];W[qc];B[oc];W[ob];B[nc];W[nb];B[mc];W[mh];B[nj];W[lg];B[lj]C[借攻取勢好。]
+         )
+         (
+          ;W[pi]N[B 跨];B[qh];W[qc];B[nf];W[ng];B[mf];W[pc];B[ni]C[妙。];W[mg];B[lg];W[mh];B[pj]
+         )
+        )
+       )
+       (
+        ;B[oh]N[B 上打];W[ng];B[nf]LB[mf:A][ph:B]
+        (
+         ;W[mf]N[A 扳];B[mg];W[nh];B[ph];W[qd];B[nd];W[pc];B[oc];W[pe];B[od];W[ni];B[pj];W[pb];B[qc]C[好。];W[qb];B[rc];W[rb];B[rd];W[qe];B[re];W[rf];B[rg];W[sc];B[qg];W[se];B[lg]C[要著。]
+        )
+        (
+         ;W[ph]N[B 打];B[qg];W[mf];B[mg];W[nh];B[oi]LB[qh:A][pi:B]
+         (
+          ;W[qh]N[A 打];B[rg];W[ni];B[pi];W[qd];B[oe]C[妙。];W[rf];B[rh];W[pc];B[oc];W[qc];B[pb];W[qb];B[lg]
+         )
+         (
+          ;W[pi]LB[rg:A][rh:B]N[B 貼長]
+          (
+           ;B[rg]N[A 立];W[qd];B[nd];W[ri];B[re];W[qe];B[rf];W[rd];B[qc];W[rc];B[qi]C[好。];W[qh];B[rh];W[qj];B[pj];W[qi];B[qk]C[好。];W[rk];B[si];W[rj];B[oj];W[mh];B[rl]C[好。];W[ql];B[sk];W[pk];B[sj];W[qk];B[rm]
+          )
+          (
+           ;B[rh]N[B 尖]C[好。];W[qd];B[oe];W[rg];B[qh];W[re];B[sg];W[rf];B[pj]
+          )
+         )
+        )
+       )
+      )
+      (
+       ;W[oe]N[B 飛跨];B[pe];W[pf];B[of];W[og];B[nf];W[ph];B[ng]
+       (
+        ;W[qg];B[oi]C[好。];W[qj];B[re]
+       )
+       (
+        ;W[oh];B[rf]C[好。];W[qg];B[re]
+       )
+      )
+     )
+     (
+      ;B[pf]N[壓];W[pg];B[og]LB[oh:A][pe:B][qg:C]N[大壓梁]C[大壓梁
+此系敵手兩分之式，今受三子者用之，則乃借中子力量，蓋白于下，以成腹勢，可得便宜。後學細味熟參，自得其理。]
+      (
+       ;W[oh]N[A 連扳];B[of];W[qe];B[ph];W[qg];B[pi];W[oi];B[oj];W[nh]LB[qd:A][rh:B][mh:C]C[高。]
+       (
+        ;B[qd]N[A 攔];W[rd];B[rc];W[pj];B[qj];W[pk];B[ri];W[rh];B[qi];W[ql];B[rl];W[rm];B[rk];W[qm];B[sj]LB[re:A][sd:B]
+        (
+         ;W[re]N[A 粘];B[mh]LB[ng:A][mg:B]
+         (
+          ;W[ng]N[A 長];B[nf];W[mg];B[sl];W[pe]LB[mf:A][nc:B]
+          (
+           ;B[mf]LB[lg:A][oe:B]N[A 貼長]
+           (
+            ;W[lg]N[A 長出];B[nd];W[oe];B[nc]C[細，如虎成劫。]
+           )
+           (
+            ;W[oe]N[B 衝出];B[lg];W[ni];B[nd]C[妙。];W[od];B[nj];W[mi];B[mj];W[li];B[ki]C[妙。可見白42之不宜，若非受子則可。]
+           )
+          )
+          (
+           ;B[nc]N[B 飛];W[oe];B[mf];W[oc];B[od];W[nd];B[ob]LB[ne:A][mc:B]
+           (
+            ;W[ne]N[A 接];B[lg];W[ni];B[lf];W[nb]C[好。];B[pc];W[mc];B[nj];W[qb];B[rb];W[pb];B[qc];W[oc];B[oa];W[na];B[nc];W[mi];B[mj];W[oc];B[qp];W[pa];B[pn];W[nl];B[nn]
+           )
+           (
+            ;W[mc]N[B 打];B[pc];W[ne];B[lg];W[ni];B[lf];W[nj];B[ld];W[nb];B[qb];W[le]C[好。];B[ke];W[md];B[kc];W[kb];B[jb];W[lc];B[kd];W[la];B[na];W[mb];B[ja];W[ka]
+           )
+          )
+         )
+         (
+          ;W[mg]N[B 扳];B[ng];W[ni];B[sl];W[pe];B[oe];W[od];B[oc];W[nd];B[mf];W[lg];B[lf];W[ob]LB[pb:A][nc:B]C[好。]
+          (
+           ;B[pb]N[A 扳];W[nc];B[pc];W[rb];B[nb];W[mb];B[oa];W[lc];B[kg];W[qb];B[nj];W[qc];B[qp];W[op];B[ro]
+          )
+          (
+           ;B[nc]N[B 衝]C[更好。];W[me];B[nf];W[mc];B[nb];W[pc];B[qc];W[pb];B[mb];W[rb];B[lc];W[md];B[sc];W[qb];B[ld];W[sb];B[le];W[sd]
+          )
+         )
+        )
+        (
+         ;W[sd]N[B 立]C[活好，何等省力，人多忽之，正局。];B[sc];W[rf];B[se];W[re];B[pe]LB[sh:A][qc:B]
+         (
+          ;W[sh]N[A 立];B[sl];W[nj]
+         )
+         (
+          ;W[qc]N[B 斷];B[qb];W[pc]C[斷先爲劫地之意，然無濟於事，至此處貪劫差。];B[oc];W[sl];B[sh];W[sg];B[qh];W[si];B[mh];W[nj];B[sh];W[rb];B[pb];W[si];B[ng];W[ni];B[sh];W[qc];B[rg];W[sb];B[sf]
+         )
+        )
+       )
+       (
+        ;B[rh]N[B 關]C[先關妙。];W[pe];B[oe];W[od];B[ng]C[以拙爲巧，妙。];W[mh];B[pc];W[oc];B[ob];W[nb];B[pb];W[mc];B[md]LB[ld:A][ne:B]
+        (
+         ;W[ld]N[A 外扳];B[ne];W[me];B[nd];W[nc];B[le];W[lc];B[mf];W[rc];B[rb];W[qc];B[qd];W[rd];B[qb];W[rg];B[qh];W[sb];B[re];W[se];B[sg];W[rf];B[sh];W[sf];B[sc];W[oa];B[sa];W[pa];B[qa];W[na];B[pk]
+        )
+        (
+         ;W[ne]N[B 扳]C[更勝，白外不傷。];B[mg];W[lg];B[mf];W[lf];B[me];W[kc];B[kd];W[jc];B[jd];W[id];B[lh];W[mi];B[kh];W[pj];B[qj];W[pk];B[qk]
+        )
+       )
+       (
+        ;B[mh]N[C 頂]C[細。];W[ng];B[pj]C[便宜，堅實亦因中子之勢。];W[pe]LB[nf:A][oe:B]
+        (
+         ;B[nf]N[A 長];W[mg];B[mf];W[lg];B[qc];W[oe];B[lf]LB[od:A][nc:B]
+         (
+          ;W[od]N[A 曲];B[kg];W[lh];B[oc];W[nc];B[ob];W[nb];B[kf];W[qd];B[pc];W[rc];B[rb];W[rd];B[na];W[ma];B[oa];W[lb];B[sb];W[md];B[mj];W[lj];B[lk];W[nj];B[nk];W[mi];B[mk];W[kj];B[kk];W[ki];B[ji];W[kh];B[jh]
+         )
+         (
+          ;W[nc]N[B 飛下]C[較勝曲。];B[kg];W[lh];B[od];W[nd];B[jg]C[妙。];W[nj];B[ob];W[oc];B[pb];W[nb];B[rb];W[rd];B[rc];W[ne];B[kd];W[kb];B[jc];W[jb];B[hc]
+         )
+        )
+        (
+         ;B[oe]N[B 擋];W[od];B[mf];W[mg];B[lg];W[lh];B[me]C[好。];W[lf];B[kg];W[mi];B[qd];W[rd];B[rc];W[sd];B[oc];W[nd];B[nb]LB[mc:A][nc:B]
+         (
+          ;W[mc]N[A 尖];B[le];W[rb];B[qb];W[sc];B[qc];W[pb];B[ra];W[sb];B[ob];W[ri];B[lc]
+         )
+         (
+          ;W[nc]N[B 擠];B[ob];W[rb];B[qb];W[sc];B[qc];W[nf];B[ne];W[ld];B[le];W[ke];B[kf];W[md];B[lf];W[je];B[ie]C[巧手法。]
+         )
+        )
+       )
+      )
+      (
+       ;W[pe]N[B 下打];B[of]LB[qe:A][oe:B]
+       (
+        ;W[qe]N[A 接];B[oe]LB[ph:A][od:B]
+        (
+         ;W[ph]N[A 長];B[qd];W[rd];B[rc];W[od];B[qg]C[細。];W[rg];B[md]LB[oc:A][nd:B]
+         (
+          ;W[oc]N[A 立];B[pb];W[pc];B[qc];W[ob];B[qb]LB[mc:A][mb:B]
+          (
+           ;W[mc]N[A 托];B[lc]LB[nd:A][lb:B]
+           (
+            ;W[nd]N[A 頂];B[me];W[lb];B[mb];W[nb];B[nc];W[ne];B[nf];W[mc];B[ma];W[mf];B[oa];W[oh];B[ng];W[nh];B[mg];W[mh];B[lg]C[黑雖得利，而白外邊收亦暢。]
+           )
+           (
+            ;W[lb]N[B 下扳];B[mb];W[nc];B[kc];W[kb];B[ma]LB[na:A][oa:B]
+            (
+             ;W[na]N[A 尖];B[jb];W[nb];B[ic];W[re];B[sb]C[妙。];W[ra];B[pa];W[sd];B[sc]
+            )
+            (
+             ;W[oa]N[B 立]C[不行。];B[jb];W[ne];B[qh]C[妙。];W[qi];B[oh]C[妙。];W[pi];B[le];W[me];B[ld];W[nd];B[mf]
+            )
+           )
+          )
+          (
+           ;W[mb]N[B 跳]C[不如托。];B[lb];W[nb];B[qh];W[qi];B[oh];W[pi];B[lc];W[re];B[ra];W[sb];B[sc];W[pa];B[oa];W[nd];B[mc];W[ne];B[mf]
+          )
+         )
+         (
+          ;W[nd]N[B 頂]C[頂好，勝立。];B[ne];W[mc]LB[qh:A][lc:B]
+          (
+           ;B[qh]N[A 長]C[爲劫地，細。];W[qi];B[lc];W[oc];B[pb];W[ld];B[me];W[lb];B[kc];W[ob];B[re];W[rf];B[mb];W[nb];B[nc];W[pc];B[qc];W[mc];B[ma];W[la];B[nc];W[qb];B[rb];W[mc];B[rh]LB[ri:A][na:B]
+           (
+            ;W[ri]N[A 應之];B[nc];W[pa];B[na];W[mc];B[oh];W[oa];B[pi];W[se];B[sg]
+           )
+           (
+            ;W[na]N[B 提];B[pi];W[oh];B[ri];W[se];B[sg];W[pa];B[sh];W[sf];B[sd]C[丟劫亦妙。];W[sc];B[sb]
+           )
+          )
+          (
+           ;B[lc]N[B 扳];W[ld];B[me];W[lb]LB[kc:A][nc:B]
+           (
+            ;B[kc]N[A 長出];W[pb]C[虛妙。];B[re];W[rf];B[mb];W[nb];B[nc];W[oc];B[qc];W[mc];B[qh];W[qi];B[nc];W[qb];B[rb];W[mc];B[rh];W[ri];B[nc];W[se];B[na];W[mc];B[oh];W[pi];B[nc];W[ob];B[mc];W[ra];B[oa];W[sc];B[sb];W[sd];B[pa]
+           )
+           (
+            ;B[nc]N[B 反打];W[oc];B[re];W[rf];B[mb];W[qc];B[sd];W[pc];B[rd];W[rb];B[qb]C[妙。];W[qa];B[ra]C[妙。];W[sa];B[sb];W[sc];B[qh];W[qi];B[sb];W[pb];B[ra];W[nb];B[mc];W[sa];B[rh];W[ri];B[ra];W[qb];B[oa];W[sh];B[ob];W[sa];B[pq];W[sc];B[qn];W[se];B[dc]C[白雖得利，黑勢大張。]
+           )
+          )
+         )
+        )
+        (
+         ;W[od]LB[qd:A][oc:B][pc:C]N[B 斷]
+         (
+          ;B[qd]LB[qg:A][oc:B]N[A 貼]
+          (
+           ;W[qg]LB[md:A][pb:B]N[A 粘]C[接好，免伏兵。]
+           (
+            ;B[md]N[A 飛];W[nd];B[ne];W[mc];B[lc];W[nb];B[mb];W[nc];B[lb];W[me];B[ld];W[oh];B[mf]LB[pc:A][pb:B]
+            (
+             ;W[pc]N[A 扳];B[qc];W[qb];B[rb];W[pb];B[re];W[ra];B[rd];W[sc];B[sb];W[qa];B[sf]C[妙。];W[sa];B[rc];W[sg];B[rg];W[rf];B[sh];W[rh];B[ob]C[細。];W[oa];B[qh];W[sg];B[na];W[ma];B[rg];W[ph];B[ri]
+            )
+            (
+             ;W[pb]LB[qb:A][pc:B]N[B 關]
+             (
+              ;B[qb]N[A 攔];W[rb];B[pc];W[ob];B[rc];W[qa];B[qc];W[ra];B[sb];W[re];B[na];W[rd];B[oa];W[pa];B[ma]C[兩家俱好。]
+             )
+             (
+              ;B[pc]N[B 頂]C[較朋虛妙。];W[qb];B[rc];W[rb];B[ob];W[oa];B[oc];W[na];B[pa];W[qa];B[re];W[sb];B[ph]LB[qh:A][pi:B]C[妙收，暢大。白若上打，黑即著活。]
+              (
+               ;W[qh]N[A 下打];B[pi];W[qi];B[rf];W[rg];B[qj];W[pj];B[oi];W[rj];B[qk];W[rk];B[ql];W[rl];B[qm];W[rm];B[qn]
+              )
+              (
+               ;W[pi]N[B 上打];B[rg]C[好。];W[rh];B[rf];W[qh];B[ma];W[pa];B[sc];W[sd];B[ra];W[sg];B[sf];W[sh]
+              )
+             )
+            )
+           )
+           (
+            ;B[pb]N[B 跳下];W[nd]LB[nb:A][me:B][qj:C]
+            (
+             ;B[nb]N[A 跳]C[1、3老成，正局。];W[oh];B[me];W[md];B[nh];W[ni];B[oi];W[ph];B[mh];W[mf]C[好。]
+             (
+              ;B[ng]LB[le:A][oj:B]
+              (
+               ;W[le]N[A 補];B[oj];W[qj];B[lc]
+              )
+              (
+               ;W[oj]N[B 吃];B[mi];W[nj];B[ld]C[妙。];W[lc];B[le]C[妙。]
+              )
+             )
+            )
+            (
+             ;B[me]N[B 枷];W[ob];B[re];W[rf];B[rd];W[lc];B[pi]LB[ph:A][qi:B]C[成套。]
+             (
+              ;W[ph]N[A 頂];B[oh];W[qi];B[qj];W[pj];B[oi];W[rj];B[rh]C[妙。]
+             )
+             (
+              ;W[qi]N[B 托];B[qj];W[rj];B[ph];W[rh];B[qh];W[ri];B[sf];W[rg];B[qk];W[rk];B[ql];W[rl];B[qm];W[rm]
+             )
+            )
+            (
+             ;B[qj]N[C 逼]C[好。];W[ob];B[pc]LB[pi:A][oh:B]C[妙，不易之著。]
+             (
+              ;W[pi]N[A 跳出];B[oh];W[qi];B[nj];W[pj];B[mc];W[mb]C[妙。];B[md];W[ne];B[mf];W[nf];B[mg];W[lb];B[nc];W[oc];B[nb];W[na];B[kc]C[此局之妙，非深造不知。]
+             )
+             (
+              ;W[oh]N[B 扳];B[mf];W[rd];B[rc];W[re];B[nh];W[oi];B[qi];W[qh];B[ni];W[oj];B[ld]C[好。]
+             )
+            )
+           )
+          )
+          (
+           ;W[oc]N[B 長];B[pb];W[pc];B[qc];W[ob];B[pa];W[ra];B[qb]LB[md:A][rd:B]
+           (
+            ;W[md]N[A 關];B[ph]LB[rd:A][qg:B]
+            (
+             ;W[rd]N[A 扳];B[rc];W[re]C[差，當先飛。];B[sd]LB[rh:A][se:B]
+             (
+              ;W[rh]N[A 飛];B[rg];W[qg];B[qh];W[sg];B[ri];W[rf];B[si];W[sh];B[se];W[qi];B[pi];W[qj]
+             )
+             (
+              ;W[se]N[B 打];B[qg];W[rg];B[rh];W[sc];B[sb];W[rb];B[sd];W[qh];B[qi];W[sc];B[oa]C[巧。]
+             )
+            )
+            (
+             ;W[qg]N[B 粘];B[qh];W[rh];B[ri];W[rg];B[re];W[qi];B[me];W[qj];B[ld];W[lc];B[mc];W[nd];B[le];W[mb];B[kc];W[lb];B[kb];W[oa];B[oi];W[tt]C[棄權，疑原譜有失。];B[ql];W[oj];B[pj]C[妙。]
+            )
+           )
+           (
+            ;W[rd]N[B 扳];B[rc];W[re];B[nb]C[好。];W[mc];B[nc];W[nd];B[md];W[me];B[ld];W[ne];B[oa];W[mb];B[na];W[le];B[kd];W[ke];B[ph];W[qg];B[qh];W[oh];B[ng];W[rh];B[ri];W[rg];B[jd];W[oi];B[mh];W[qi]
+           )
+          )
+         )
+         (
+          ;B[oc]N[B 打];W[nd];B[qd];W[nc]LB[qg:A][ph:B][pb:C]
+          (
+           ;B[qg]N[A 斷打];W[rg];B[ph];W[rd];B[rc];W[qc]C[好。];B[pc];W[ob];B[qb];W[pb];B[qc];W[re];B[sb];W[rh];B[mb];W[nb];B[ra]LB[kc:A][qj:B]
+           (
+            ;W[kc]N[A 拆];B[qi];W[ri];B[qk];W[rj];B[ql]
+           )
+           (
+            ;W[qj]N[B 飛];B[lc]C[好。];W[ld];B[me];W[md];B[jc];W[jd];B[id];W[je];B[le];W[kd];B[hc]
+           )
+          )
+          (
+           ;B[ph]N[B 上打];W[qg];B[pb];W[ob];B[pc]LB[oh:A][qh:B]
+           (
+            ;W[oh]N[A 斷];B[nh]C[細。];W[oi];B[qh];W[rh];B[qi]C[細。];W[ri];B[qj];W[rd];B[rc];W[re];B[rj]LB[nb:A][rb:B]
+            (
+             ;W[nb]N[A 接];B[rb];W[sg];B[si];W[rf];B[kc]
+            )
+            (
+             ;W[rb]N[B 夾];B[nb];W[mb];B[oa];W[me];B[mf];W[qb];B[lb];W[ma];B[lc];W[mc];B[le]LB[na:A][qa:B]
+             (
+              ;W[na]LB[qa:A]N[A 打]C[差，非劫，當A立。];B[ne];W[ob];B[oj];W[pa];B[ni]
+             )
+             (
+              ;W[qa]N[B 立]
+             )
+            )
+           )
+           (
+            ;W[qh]N[B 長];B[pi];W[qi];B[pj];W[qk];B[le];W[kc];B[ol]
+           )
+          )
+          (
+           ;B[pb]N[C 虎];W[qg];B[nb];W[lc];B[oh];W[qj];B[mb];W[kc]C[好。];B[me];W[ld];B[kf]C[穩。];W[hc]
+          )
+         )
+         (
+          ;B[pc]N[C 長];W[oc];B[ob];W[nb];B[pb];W[mc];B[qg];W[rg];B[ph];W[rd];B[rc];W[rh];B[qd];W[re];B[rb];W[qj];B[kc]LB[me:A][kd:B]
+          (
+           ;W[me]N[A 關];B[ke];W[kb];B[jb];W[lb];B[mf]C[好。];W[jc];B[ib]C[好。];W[kd];B[jd];W[lc];B[id];W[le];B[lf]
+          )
+          (
+           ;W[kd]N[B 壓]C[差。];B[nd];W[nc];B[md]C[好。]
+          )
+         )
+        )
+       )
+       (
+        ;W[oe]N[B 衝];B[qe];W[qd];B[re];W[rd];B[rf];W[pc];B[od];W[ne];B[oc];W[pb];B[ob];W[qg];B[rg];W[rb];B[qc];W[qb];B[lc]LB[qi:A][md:B][qh:C]
+        (
+         ;W[qi]N[A 跳];B[qh]C[細。];W[ph];B[mf]C[妙。];W[nf];B[mg]
+        )
+        (
+         ;W[md]N[B 尖];B[sd];W[rc];B[mc]LB[oh:A][qi:B]
+         (
+          ;W[oh]N[A 扳];B[mf];W[ld];B[kd];W[le];B[ph];W[qh]C[好。];B[pi];W[qi];B[qj]C[好。];W[pj];B[oi];W[rj];B[qk];W[ri];B[lf];W[nh];B[ng]C[好。];W[pk];B[ni];W[ql];B[ke]
+         )
+         (
+          ;W[qi]N[B 跳];B[mf];W[ld];B[kd];W[le];B[nd];W[me];B[kf];W[ke];B[je];W[jd];B[kc];W[jf];B[ie];W[lf];B[kg];W[lg];B[lh];W[kh];B[jg];W[mh];B[li];W[mg];B[oh]C[差。];W[rh];B[qh];W[ph];B[pi];W[qh];B[qj];W[sh]C[妙。];B[mi];W[sg];B[pj]
+         )
+        )
+        (
+         ;W[qh]N[C 長];B[sd];W[rc];B[qi];W[rh];B[ri];W[sh];B[me]C[好。];W[ng];B[nf];W[mf]
+        )
+       )
+      )
+      (
+       ;W[qg]N[C 粘];B[of]LB[qc:A][qd:B]
+       (
+        ;W[qc]N[A 點]C[轉換佳著。];B[qd];W[rd];B[re];W[rc];B[qe];W[ob];B[pi];W[qj]C[轉換佳著。];B[qi];W[ri];B[pj];W[qk];B[rh];W[rj];B[qm];W[pk];B[rg];W[pm];B[pn];W[qn];B[om];W[pl];B[qo];W[rn];B[ro];W[rm];B[po]
+       )
+       (
+        ;W[qd]N[B 托];B[qc];W[rd];B[rc];W[qj];B[qn];W[od];B[pc];W[oc];B[lc];W[md];B[ld];W[me];B[mc]
+       )
+      )
+     )
+     (
+      ;B[qh]N[夾];W[of];B[oh];W[nd]LB[ne:A][rd:B]N[金井欄]C[金井欄
+此式起手不宜，須佈局後看外勢之大小因而成之，彼此俱當審查，大約所重不在角耳。受三子者，因有中子，則可借以成勢，學者當細味其法。]
+      (
+       ;B[ne]LB[oe:A][od:B]N[A 跨斷]
+       (
+        ;W[oe]N[A 斷];B[od];W[nc];B[nf];W[ng];B[mg]LB[qd:A][og:B]C[好。]
+        (
+         ;W[qd]N[A 頂]C[緊。];B[pe];W[pf];B[qe]LB[re:A][rd:B]
+         (
+          ;W[re]N[A 擋]C[緊。];B[rd];W[pc]C[緊。];B[qc];W[oc];B[qd];W[rf];B[rb]LB[qb:A][sd:B][pb:C][rh:D]
+          (
+           ;W[qb]LB[pb:A][sc:B]N[A 擠]
+           (
+            ;B[pb]N[A 吃];W[sd];B[qa];W[sb];B[rc];W[ra]
+           )
+           (
+            ;B[sc]N[B 做眼];W[ra];B[pb];W[pa]
+           )
+          )
+          (
+           ;W[sd]LB[sc:A][pb:B]N[B 扳]
+           (
+            ;B[sc]N[A 打];W[qb];B[se];W[ra];B[pb];W[pa]
+           )
+           (
+            ;B[pb]N[B 扳];W[sb];B[sc];W[rc]
+           )
+          )
+          (
+           ;W[pb]N[C 彎]C[是。];B[sc];W[qb];B[ra];W[rh];B[ri];W[sf]C[巧。];B[sd];W[qi];B[og]C[老成。];W[qj];B[rg];W[ph];B[ld];W[lc];B[kc];W[kd];B[lb];W[mc];B[jc];W[le];B[jd];W[ke];B[me];W[md];B[nh];W[oi];B[ni]LB[oj:A][kg:B]
+           (
+            ;W[oj]N[A 長];B[jg];W[kg];B[jh];W[lg];B[lh];W[jf];B[if];W[je];B[ie];W[kh];B[ki];W[lf];B[ql];W[qk];B[qp];W[qn];B[op]
+           )
+           (
+            ;W[kg]N[B 關];B[sh];W[pg];B[oj];W[pi];B[ql];W[pk];B[pl];W[ok];B[rj]
+           )
+          )
+          (
+           ;W[rh]N[D 托];B[ri]LB[qi:A][ph:B]
+           (
+            ;W[qi]N[A 斷];B[pi];W[qj];B[rg];W[ph];B[pg];W[qg];B[sh];W[og];B[nh];W[ph];B[mh];W[rh];B[le];W[pj];B[oi];W[sg];B[lb]C[好，多隨手單關。];W[ld];B[kd];W[md];B[kc];W[qb];B[pb];W[sd];B[qa];W[sb];B[ma]
+           )
+           (
+            ;W[ph]LB[og:A][pi:B]N[B 挖]
+            (
+             ;B[og]N[A 衝斷]C[穩重。];W[qi];B[pi];W[qg];B[pj];W[qj];B[qk];W[rj];B[pk];W[kc];B[pb]
+            )
+            (
+             ;B[pi]N[B 打];W[nh]LB[og:A][le:B]
+             (
+              ;B[og]N[A 衝斷];W[oi];B[pg];W[mh]C[先行好。];B[qg];W[le]
+             )
+             (
+              ;B[le]N[B 跳補]C[先得制之法。];W[pb];B[sc];W[qb];B[qa];W[pa];B[ra];W[kc];B[og];W[oi];B[pg];W[qg];B[ph];W[pj];B[qi];W[se];B[sd];W[sg];B[ni];W[mh];B[oj]
+             )
+            )
+           )
+          )
+         )
+         (
+          ;W[rd]N[B 立]C[乃雙活之著。];B[re];W[rf];B[sf]C[是，忌立。];W[sg];B[se];W[og]LB[nh:A][rg:B]
+          (
+           ;B[nh]N[A 擋];W[rh];B[pb];W[qi];B[le];W[qb];B[pc]C[好。];W[ob];B[pa]LB[rb:A][mh:B]
+           (
+            ;W[rb]N[A 雙];B[sd];W[rc]C[好。];B[sc];W[sb];B[qa];W[kc]
+           )
+           (
+            ;W[mh]N[B 斷]C[先斷是。];B[lg];W[lh];B[kg];W[kc];B[ph];W[rj];B[mj]
+           )
+          )
+          (
+           ;B[rg]N[B 打];W[nh];B[ob];W[nb];B[mh];W[ni];B[le]C[把邊讓出，得此著之逼有見。]
+          )
+         )
+        )
+        (
+         ;W[og]N[B 粘];B[nh]LB[rd:A][qg:B]
+         (
+          ;W[rd]LB[re:A][qd:B]N[A 飛]
+          (
+           ;B[re]N[A 跨];W[qe];B[qd];W[rf];B[rc];W[se];B[qb];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[kf]LB[lh:A][kc:B]
+           (
+            ;B[lh]N[A 虎];W[kc];B[kd];W[jd];B[lc];W[kb];B[lb];W[mb]C[好。];B[la];W[ic];B[na];W[ob];B[ma];W[oa];B[oc];W[nb];B[pb];W[ka];B[pa]
+           )
+           (
+            ;B[kc]N[B 尖];W[jc];B[jb];W[ib];B[ic];W[jd];B[kb];W[hc];B[ob];W[mh];B[lg];W[ph]C[取先補爲妙。];B[pi];W[pg];B[oj];W[kh];B[lh];W[li];B[mi];W[kg];B[mh];W[kj];B[lj];W[ki];B[ri];W[rg];B[kk]
+           )
+          )
+          (
+           ;B[qd]N[B 頂];W[qg]LB[rc:A][re:B]C[要緊。]
+           (
+            ;B[rc]N[A 外扳];W[rh];B[qi];W[ri];B[qk];W[rj]LB[pl:A][lf:B]
+            (
+             ;B[pl]N[A 尖];W[rb]C[妙。];B[qc];W[re];B[sb];W[pb];B[qb];W[nb];B[ra];W[mf]
+            )
+            (
+             ;B[lf]N[B 虎]C[先虎攻，取必應也。];W[rb];B[qc];W[re];B[sb];W[pb];B[qb];W[nb];B[ra];W[jc]
+            )
+           )
+           (
+            ;B[re]N[B 內扳]C[勝外扳。];W[rh];B[qi];W[ri];B[qk];W[rj];B[rf];W[rg];B[rc]C[先者爬，今打見得快，好。];W[qj];B[lf];W[kc];B[mj]C[虎、飛得宜。];W[qm];B[qo]
+           )
+          )
+         )
+         (
+          ;W[qg]N[B 雙]C[先行，便於飛角，使黑不敢攔。];B[qc]C[退得妙，安逸簡要，正局可式。]
+         )
+        )
+       )
+       (
+        ;W[od]N[B 頂]C[活。];B[oe];W[pe]LB[md:A][pc:B]
+        (
+         ;B[md]N[A 扳];W[pc];B[qd];W[qc]LB[qe:A][re:B]
+         (
+          ;B[qe]N[A 打]C[低。];W[pf];B[rf];W[rg];B[rc];W[rb];B[oc];W[nc];B[ob];W[me];B[nf];W[pb];B[pa];W[qb];B[nb];W[mc];B[mb];W[lc];B[rd];W[sb];B[qg]
+         )
+         (
+          ;B[re]N[B 尖]C[尖好。];W[rf];B[rc];W[nb];B[qb];W[pb];B[pa];W[nc];B[sb];W[oa];B[qa];W[ra];B[rb];W[ng];B[me];W[kc]
+         )
+        )
+        (
+         ;B[pc]N[B 長];W[ng];B[me];W[md]LB[le:A][ld:B]
+         (
+          ;B[le]N[A 長];W[ld];B[re];W[rf];B[nb];W[mb];B[lg]C[強。];W[nh];B[kd];W[kc];B[jc];W[kb];B[jd];W[ob];B[pb];W[na];B[rd]
+         )
+         (
+          ;B[ld]N[B 扳];W[le];B[mf];W[lc];B[kd];W[kc];B[ke];W[nb]C[寬一步好，乃占官法。];B[re];W[rf];B[qe];W[pf];B[rc];W[nh];B[lh]C[不顧邊收腹妙。];W[oi];B[ic];W[ib];B[hb];W[jb];B[hc];W[ob];B[pb];W[qj];B[ql];W[qk];B[pl]
+         )
+        )
+       )
+      )
+      (
+       ;B[rd]N[B 關];W[re]LB[ne:A][ob:B][nc:C][oc:D]
+       (
+        ;B[ne]N[A 跨];W[oe];B[od]LB[nc:A][nf:B][md:C]
+        (
+         ;W[nc]N[A 立];B[nf];W[ng];B[mg]LB[og:A][qd:B]
+         (
+          ;W[og]N[A 粘];B[nh];W[rh]C[粘、托先走好。];B[ri];W[qg];B[pg];W[pf];B[ph];W[rc];B[qe]C[是。];W[rf];B[qc];W[rb]C[妙。];B[sd];W[qb];B[sg];W[se];B[rg];W[sc]
+         )
+         (
+          ;W[qd]N[B 挖];B[qc];W[qe]LB[pb:A][rc:B]
+          (
+           ;B[pb]N[A 虎]C[安逸。];W[rc];B[rb];W[sd];B[ob];W[nb];B[sb];W[rh];B[ri];W[qg];B[qi];W[sf];B[jc]C[有序，得邊妙。];W[kd]
+          )
+          (
+           ;B[rc]N[B 粘];W[pb];B[pc];W[qb];B[rb];W[oc];B[qa];W[ob];B[og];W[rg];B[sf]LB[qg:A][rh:B]C[細。]
+           (
+            ;W[qg]N[A 團]C[好，破套。];B[rh];W[se];B[sg];W[pe];B[pg];W[sb]C[妙。];B[sd];W[ra];B[sa];W[mf];B[me];W[ra];B[lf];W[sc]
+           )
+           (
+            ;W[rh]N[B 長];B[qg]C[妙。];W[qi];B[rf];W[se];B[pf]C[落套。]
+           )
+          )
+         )
+        )
+        (
+         ;W[nf]N[B 打]C[先打好。];B[me];W[nc];B[pb]C[好。]
+        )
+        (
+         ;W[md]N[C 長];B[me];W[ng];B[ld];W[lc]LB[lf:A][kd:B]
+         (
+          ;B[lf]N[A 虎]C[好。];W[kd];B[le];W[kc];B[mh];W[nh];B[ni];W[mg];B[lg];W[oi];B[lh];W[qd];B[qc];W[qe];B[rc];W[pi];B[ph];W[qi];B[ri];W[rj];B[rg];W[si];B[rh];W[ok];B[se];W[sf];B[sd];W[rf];B[pe];W[pf];B[ob];W[nb];B[pk]C[收法。]
+         )
+         (
+          ;B[kd]N[B 長]C[好。];W[kc];B[lf];W[nb];B[ob];W[jd];B[mh];W[nh];B[ni];W[mg];B[lg];W[oi];B[mi];W[qd];B[qc];W[qe];B[rc];W[pi];B[ph];W[qi];B[ri];W[rj];B[rg];W[si];B[rh];W[qk]C[妥。];B[se];W[sf];B[sd];W[rf];B[pe];W[pf];B[oc]C[不打好。];W[mb];B[nc];W[mc];B[ic];W[jc];B[hd]
+         )
+        )
+       )
+       (
+        ;B[ob]N[B 飛下];W[nb];B[ne]LB[oe:A][od:B]
+        (
+         ;W[oe]N[A 斷];B[od]LB[nc:A][md:B]
+         (
+          ;W[nc]N[A 接];B[nf];W[ng];B[mg];W[qd];B[qc];W[qe];B[rc];W[oc];B[pc]LB[rh:A][pb:B]
+          (
+           ;W[rh]N[A 托];B[og];W[qi];B[pb];W[jc];B[ri];W[ph];B[pi];W[qg];B[pj];W[rj];B[qj];W[si];B[ql]
+          )
+          (
+           ;W[pb]N[B 吃];B[qb];W[oa]LB[og:A][qg:B]
+           (
+            ;B[og]N[A 斷];W[rg];B[sd];W[rh];B[sb]C[兩分。]
+           )
+           (
+            ;B[qg]N[B 頂];W[rg];B[og];W[se]C[妙。];B[sf];W[rh];B[ri];W[pe];B[sd];W[si]C[妙。];B[sb];W[rj]
+           )
+          )
+         )
+         (
+          ;W[md]N[B 長];B[nf];W[ng];B[le];W[og]C[好。]
+         )
+        )
+        (
+         ;W[od]N[B 頂];B[oe];W[pe]LB[pc:A][md:B]
+         (
+          ;B[pc]N[A 退];W[ng];B[me];W[md];B[ld]LB[lc:A][le:B]
+          (
+           ;W[lc]N[A 扳];B[kd];W[kc];B[lf]C[好。];W[nh];B[jc];W[jb];B[ib];W[ka];B[ic];W[lb]
+          )
+          (
+           ;W[le]N[B 斷];B[lf];W[ke];B[mf];W[lc];B[kf];W[je];B[nh]C[好。];W[mg];B[kh]C[好。]
+          )
+         )
+         (
+          ;B[md]LB[nc:A][pc:B]N[B 扳]C[先扳好。]
+          (
+           ;W[nc]N[A 接]C[差。];B[pc];W[ng];B[nf];W[og];B[mg];W[nh];B[kc]
+          )
+          (
+           ;W[pc]N[B 打]C[先打是。];B[qd];W[ng];B[nf];W[og];B[mc];W[pb];B[mb];W[oa];B[rb];W[qb];B[qe];W[pf];B[rf];W[qa];B[se]
+          )
+         )
+        )
+       )
+       (
+        ;B[nc]LB[mc:A][pc:B]N[C 托]
+        (
+         ;W[mc]N[A 扳];B[md];W[od];B[oc];W[pc]LB[qc:A][pb:B]
+         (
+          ;B[qc]N[A 上打];W[pb];B[mb];W[lc];B[ob];W[oa];B[nb];W[pe];B[qd];W[lb];B[qb];W[le]C[黑白俱穩。]
+         )
+         (
+          ;B[pb]N[B 下打];W[qc];B[qd];W[qb];B[ob];W[sb]C[妙。];B[ra];W[sd]C[妙。]
+         )
+        )
+        (
+         ;W[pc]N[B 托];B[oc];W[pb];B[qd];W[od];B[ob];W[rb];B[rc];W[pa]C[巧妙。];B[mc]C[此手若挖可成劫。];W[ra]C[巧妙。];B[pf]C[妙。];W[pe];B[qe];W[pg];B[rf];W[rg];B[se];W[qg]
+        )
+       )
+       (
+        ;B[oc]N[D 尖];W[nc];B[nb];W[mb];B[ob];W[lc]C[正當。]
+       )
+      )
+     )
+    )
+   )
+   (
+    ;W[qf];B[qh];W[of];B[oh];W[nd]C[《受三子譜》金井欄一二子變。];B[rd];W[re];B[ne];W[oe];B[od];W[nc];B[nf];W[ng];B[mg];W[og];B[nh];W[rh]C[粘、托先走好。];B[ri];W[qg];B[pg];W[pf];B[ph];W[rc];B[qd];W[sd]C[好。];B[qb];W[qc]C[先衝好。];B[pb];W[mf];B[me];W[lf];B[le];W[ke];B[ld];W[mb];B[ob];W[kd];B[lc];W[kc];B[lb];W[kb];B[ma];W[na];B[la];W[nb];B[kf];W[lg];B[mh];W[kg];B[oa];W[ka];B[oc];W[rb];B[rg];W[rf];B[sh];W[ra];B[jf];W[jg];B[if];W[ig];B[hf];W[hc];B[hg];W[ii];B[hi];W[ij];B[hj];W[ik];B[qa]
+   )
+  )
+ )
+)
