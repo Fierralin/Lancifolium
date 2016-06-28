@@ -102,6 +102,114 @@ int GnTree::joinManuals(struct __GnTree &sig) { /* 將另一個棋譜歸併進�
  * 棋譜寫出函數
  */
 
+int GnTree::wreverse(int deep, GnNode *cur, FileSaveBuff &wril) {
+	char mov[3];
+	if (cur->mov >= 0) { // mov
+		mov[0] = cur->mov / 100 + 'a';
+		mov[1] = cur->mov % 100 + 'a';
+		mov[2] = '\0';
+		switch(cur->stoneProp) {
+		case 1:
+			wril.puts("B["); wril.puts(mov); wril.putc(']'); break;
+		case 2:
+			wril.puts("W["); wril.puts(mov); wril.putc(']'); break;
+		default:
+			break;
+		}
+	}
+
+	if (cur->addblacks.size() > 0) { // add black stones
+		wril.puts("AB");
+		for (int tmpi = 0; tmpi < cur->addblacks.size(); tmpi++) {
+			wril.putc('[');
+			wril.putc(cur->addblacks[tmpi] / 100 + 'a');
+			wril.putc(cur->addblacks[tmpi] % 100 + 'a');
+			wril.putc(']');
+		}
+	}
+
+	if (cur->addwhites.size() > 0) { // add white stones
+		wril.puts("AW");
+		for (int tmpi = 0; tmpi < cur->addwhites.size(); tmpi++) {
+			wril.putc('[');
+			wril.putc(cur->addwhites[tmpi] / 100 + 'a');
+			wril.putc(cur->addwhites[tmpi] % 100 + 'a');
+			wril.putc(']');
+		}
+	}
+
+	if (cur->labels.size() > 0) { // labels
+		std::sort(cur->labels.begin(), cur->labels.end(), sortcmp);
+		vector<int>::iterator iter = std::unique(cur->labels.begin(), cur->labels.end());
+		cur->labels.erase(iter, dst->labels.end());
+		int tmpi = 0;
+		if (cur->labels[tmpi] / 10000 == TRIANGLE) { //
+			wril.puts("TR");
+			for (; tmpi < cur->labels.size(); tmpi++) {
+				if (cur->labels[tmpi] / 10000 == TRIANGLE) {
+					wril.putc('[');
+					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
+					wril.putc(cur->labels[tmpi] % 100 + 'a');
+					wril.putc(']');
+				}
+				else break;
+			}
+		}
+		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == DIAMOND)) { //
+			wril.puts("SQ");
+			for (; tmpi < cur->labels.size(); tmpi++) {
+				if (cur->labels[tmpi] / 10000 == DIAMOND) {
+					wril.putc('[');
+					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
+					wril.putc(cur->labels[tmpi] % 100 + 'a');
+					wril.putc(']');
+				}
+				else break;
+			}
+		}
+		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == FORK)) { //
+			wril.puts("MA");
+			for (; tmpi < cur->labels.size(); tmpi++) {
+				if (cur->labels[tmpi] / 10000 == FORK) {
+					wril.putc('[');
+					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
+					wril.putc(cur->labels[tmpi] % 100 + 'a');
+					wril.putc(']');
+				}
+				else break;
+			}
+		}
+		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == FORK)) { //
+			wril.puts("MA");
+			for (; tmpi < cur->labels.size(); tmpi++) {
+				if (cur->labels[tmpi] / 10000 == FORK) {
+					wril.putc('[');
+					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
+					wril.putc(cur->labels[tmpi] % 100 + 'a');
+					wril.putc(']');
+				}
+				else break;
+			}
+		}
+	}
+}
+
+void GnTree::writetree(char *filename) {
+	FileSaveBuff wril;
+	wril.openfile(filename);
+
+	wril.puts("(\n ;GM[1]FF[4]CA[UTF-8]ST[2]");
+	wril.puts("SZ[");
+	char tmpsize[3];
+	sprintf(tmpsize, this->siz);
+	wril.puts(tmpsize);
+	wril.puts("]");
+
+	wreverse(1, this->treeroot, wril);
+
+	wril.puts(")");
+}
+
 int GnTree::reverse(int deep, struct GnNode *cur) {
 	if (cur == NULL) return 1;
 	cur->printbase();
@@ -130,18 +238,20 @@ void GnTree::printtree() {
 	printf("\n");
 }
 
-void GnTree::printpool() {
+void GnTree::printpool() { // 將節點池和評論池打印出來
 	std::list<string>::iterator itor;
+	int tmpi;
 
 	printf("[Nodename]\n");
 	itor = this->nodename.begin();
 	while (itor != this->nodename.end()) {
-		std::cout << *itor++ << std::endl;
+		std::cout << "$ "<< *itor++ << std::endl;
 	}
 	printf("[Comment]\n");
 	itor = this->comment.begin();
 	while (itor != this->comment.end()) {
-		std::cout << *itor++ << std::endl;
+		std::cout << "$ "<< *itor++ << "\n";
+		//system("pause"); //
 	}
 	printf("----------------------");
 }

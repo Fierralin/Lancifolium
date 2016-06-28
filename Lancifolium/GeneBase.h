@@ -12,6 +12,11 @@ using std::vector;
 #define WHITESTONE 2 // 白子
 #define NONE_MOV -1 // 沒有走子記爲-1
 
+#define TRIANGLE 1 /* 三角形 */
+#define DIAMOND 2 /* 方塊 */
+#define FORK 3 /* 叉 */
+#define CIRCLE 4 /* 圓 */
+
 /*
  * 重要原則：成功則返回0
  * 正確返回true
@@ -46,7 +51,7 @@ typedef struct GnNode { // 讀取棋譜文件所用節點，亦當可用於戰�
 	/* 判斷 */
 	bool operator==(const GnNode &tmpnode) const;
 
-    int jud_nextmov(int tmpmov); // 判斷下一個落子是否在nxt中，
+	int jud_nextmov(int tmpmov); // 判斷下一個落子是否在nxt中，
 
 	void printing();
 	void printbase();
@@ -69,9 +74,12 @@ typedef struct __GnTree { // 保存提子信息，GnNode中已經包含了這個
 	int adjustManual(GnNode *tmpnode);
 	int joinManuals(struct __GnTree &sig);
 
-	void printpool(); // 打印nodename和comment池
+	int wreverse(int deep, GnNode *cur, FileSaveBuff &wril);
+	void writetree(char *filename);
+
 	int reverse(int deep, GnNode *cur); //  遞歸遍歷棋譜樹，並輸出節點信息
 	void printtree(); // 打印樹
+	void printpool(); // 打印nodename和comment池
 } GnTree;
 
 #endif // !GENEBASE_H

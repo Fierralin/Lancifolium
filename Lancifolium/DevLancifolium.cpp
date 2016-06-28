@@ -4,10 +4,6 @@ void DevLancifolium::init() {
 	gntree = NULL; siz = 19;
 }
 
-int DevLancifolium::openfile(char *filename)  { // 讀入文件
-	return read.openfile(filename);
-} // finished openfile
-
 void DevLancifolium::clearall() {
 	//while (!branchStack.empty()) branchStack.pop();
 	gntree->deleteroot(gntree->treeroot);
@@ -142,7 +138,6 @@ int DevLancifolium::dealLabels(struct GnNode *tmpnode) { // LB
 		reader = read.getc(); // ignore ']'
 		while (iswhite(reader)) reader = read.getc(); // reach '[' or next
 	}
-
 	return 0;
 }
 
@@ -178,7 +173,7 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		if (reader == EOF) return 0; // EOF
 
 		switch (operatecase(operate)) {
-		case 1202: dealLabels(curNode); break; /* LB 字母 0 */
+		case 1202: dealLabels(curNode); break; /* LB 字母 */
 		case 2018: dealShapes(curNode, TRIANGLE); break; /* TR 三角 1 */
 		case 1917: dealShapes(curNode, DIAMOND); break; /* SQ 方塊 2 */
 		case 1301: dealShapes(curNode, FORK); break; /* MA 叉 3 */
@@ -203,7 +198,7 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 } // finished configNode
 
 int DevLancifolium::configManual(char *filename) {
-    if (openfile(filename)) return 1; /* 文件讀取失敗 */
+	if (read.openfile(filename)) return 1; /* 文件讀取失敗 */
     if (gntree == NULL) gntree = new GnTree;
     if (gntree->treeroot != NULL) return 2; /* 棋譜樹不爲空 */
     this->siz = 19; // init
@@ -216,18 +211,19 @@ int DevLancifolium::configManual(char *filename) {
 	curNode = gntree->treeroot; /**/
 	configNode();
 
+	GnNode *tmpnode;
 	while (true) { // 處理棋譜
 		if (reader == ';') { // ';'
-			tmpNode = curNode;
+			tmpnode = curNode;
 			curNode = new struct GnNode;
-			tmpNode->insertNextNode(curNode);
+			tmpnode->insertNextNode(curNode);
 			configNode(); /**/
 		}
 		else if (reader == '(') { // '('
-			tmpNode = curNode;
+			tmpnode = curNode;
 			curNode = new struct GnNode;
-			tmpNode->insertNextNode(curNode); /* 挿入分支 */
-			branchStack.push(tmpNode); /* 上一分支節點入棧 */
+			tmpnode->insertNextNode(curNode); /* 挿入分支 */
+			branchStack.push(tmpnode); /* 上一分支節點入棧 */
 			reader = read.getc();
 			while ((reader != ';') && (reader != '(') && (reader != ')')
 				&& (reader != EOF)) reader = read.getc();
@@ -249,5 +245,3 @@ int DevLancifolium::configManual(char *filename) {
 		if (reader == EOF) break; // EOF
 	} // finished while true
 } // finished configManual
-
-

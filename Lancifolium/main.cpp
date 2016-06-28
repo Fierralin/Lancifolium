@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
     }
     else {
         printf("----------------\n");
-        sig.printtree();
+        //sig.printtree();
 		sig.printpool();
 		sig.deleteroot(sig.treeroot);
     }
