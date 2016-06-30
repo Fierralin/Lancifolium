@@ -2,11 +2,6 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="main.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="500" topLine="5" />
-		</Cursor>
-	</File>
 	<File name="FormLancifolium.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="126" topLine="0" />
@@ -17,9 +12,9 @@
 			<Cursor1 position="1247" topLine="40" />
 		</Cursor>
 	</File>
-	<File name="DevLancifolium.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="GeneTree.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6524" topLine="180" />
+			<Cursor1 position="6444" topLine="45" />
 		</Cursor>
 	</File>
 	<File name="MovLancifolium.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -27,9 +22,14 @@
 			<Cursor1 position="0" topLine="24" />
 		</Cursor>
 	</File>
-	<File name="GeneTree.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4568" topLine="130" />
+			<Cursor1 position="472" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="DevLancifolium.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6524" topLine="180" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

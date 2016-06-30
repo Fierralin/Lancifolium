@@ -9,15 +9,15 @@ int main(int argc, char *argv[]) {
     dev.gntree = &sig;
     printf("----------------\n");
     if (argc < 2) {
-        printf("exe [filename]\n");
-    }
+		printf("exe [filename]\n");
+	}
     if (dev.configManual(argv[1]) == 1) {
 
-    }
+	}
     else {
-        printf("----------------\n");
-        //sig.printtree();
+		printf("----------------\n");
+	//sig.printtree();
 		sig.printpool();
 		sig.deleteroot(sig.treeroot);
-    }
+	}
 }

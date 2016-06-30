@@ -36,7 +36,9 @@ typedef struct DevLancifolium { // 全局結構
 
 	int dealCommentNodename(struct GnNode *tmpnode, int tmpkind);
 
-	int dealLabels(struct GnNode *tmpnode); // 字母標籤
+	int dealLabels(struct GnNode *tmpnode); // 字母標籤 LB
+
+	int dealLabeldrago(struct GnNode *tmpnode); // L, only for drago
 
 	int dealShapes(struct GnNode *tmpnode, int form); // 方塊、三角、圓、叉
 

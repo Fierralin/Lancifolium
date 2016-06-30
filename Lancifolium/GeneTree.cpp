@@ -66,8 +66,8 @@ int GnTree::adjustnxtlist(vector<GnNode *> &nxt) {
 			else if (**itoi == **itoj) { /* 兩個節點配置相同 */
 				printf("mov(%d, %d)\n", (*itoi)->mov, (*itoj)->mov); /* ------------- */
 				printf("nxtlist(%d, %d)\n", (*itoi)->nxt.size(), (*itoj)->nxt.size()); /* ------------- */
-                //(*itoi)->joinsame(**itoj); /* 將itoj複製到itoi */
-                joinsame(*itoi, *itoj); // 此處換成指針了
+				//(*itoi)->joinsame(**itoj); /* 將itoj複製到itoi */
+			joinsame(*itoi, *itoj); // 此處換成指針了
 				/* 之前這裡出了問題，joinsame裡面是兩個*，不能是一個星 */
 				nxt.erase(itoj); /* 理解，這裡不要++ */
 			}
@@ -141,7 +141,7 @@ int GnTree::wreverse(int deep, GnNode *cur, FileSaveBuff &wril) {
 	if (cur->labels.size() > 0) { // labels
 		std::sort(cur->labels.begin(), cur->labels.end(), sortcmp);
 		vector<int>::iterator iter = std::unique(cur->labels.begin(), cur->labels.end());
-		cur->labels.erase(iter, dst->labels.end());
+		cur->labels.erase(iter, cur->labels.end());
 		int tmpi = 0;
 		if (cur->labels[tmpi] / 10000 == TRIANGLE) { //
 			wril.puts("TR");
@@ -201,7 +201,7 @@ void GnTree::writetree(char *filename) {
 	wril.puts("(\n ;GM[1]FF[4]CA[UTF-8]ST[2]");
 	wril.puts("SZ[");
 	char tmpsize[3];
-	sprintf(tmpsize, this->siz);
+	sprintf(tmpsize, "%d",this->siz);
 	wril.puts(tmpsize);
 	wril.puts("]");
 
@@ -213,7 +213,7 @@ void GnTree::writetree(char *filename) {
 int GnTree::reverse(int deep, struct GnNode *cur) {
 	if (cur == NULL) return 1;
 	cur->printbase();
-    //printf("after printbase\n");
+	//printf("after printbase\n");
 
 	if (cur->nxt.size() > 1) {
 		deep++;

@@ -41,6 +41,7 @@ typedef struct GnNode { // 讀取棋譜文件所用節點，亦當可用於戰�
 	vector<int> liftsave; // 提子保存
 	unsigned char liftcolour; // 提子顏色
 
+
 	void init(struct GnNode *par = NULL); // 此處默認參數在後面不能加
 	GnNode();
 	GnNode(struct GnNode *par);

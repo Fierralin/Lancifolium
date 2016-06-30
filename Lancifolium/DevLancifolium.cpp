@@ -141,6 +141,25 @@ int DevLancifolium::dealLabels(struct GnNode *tmpnode) { // LB
 	return 0;
 }
 
+int DevLancifolium::dealLabeldrago(GnNode *tmpnode) {
+	// L[ab][cd][ed]...
+	int tmpform = 'A';
+	int tmplab;
+	while (reader == '[') {
+		tmplab = (toupper(read.getc()) - 'A') * 100;
+		tmplab += toupper(read.getc()) - 'A';
+		while (reader != ']') reader = read.getc(); // reach ':' or ']'
+
+		tmpnode->labels.push_back(tmpform * 10000 + tmplab);
+		tmpform++;
+
+		while (reader != ']') reader = read.getc(); // reach ']'
+		reader = read.getc(); // ignore ']'
+		while (iswhite(reader)) reader = read.getc(); // reach '[' or next
+	}
+	return 0;
+}
+
 int DevLancifolium::dealShapes(GnNode *tmpnode, int form) { // TR SQ MA CR
 	int tmplab;
 
@@ -174,6 +193,7 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 
 		switch (operatecase(operate)) {
 		case 1202: dealLabels(curNode); break; /* LB 字母 */
+		case 12:   dealLabeldrago(curNode); break; /* L (only for drago) 字母 */
 		case 2018: dealShapes(curNode, TRIANGLE); break; /* TR 三角 1 */
 		case 1917: dealShapes(curNode, DIAMOND); break; /* SQ 方塊 2 */
 		case 1301: dealShapes(curNode, FORK); break; /* MA 叉 3 */
