@@ -141,7 +141,7 @@ int DevLancifolium::dealLabels(struct GnNode *tmpnode) { // LB
 	return 0;
 }
 
-int DevLancifolium::dealLabeldrago(GnNode *tmpnode) {
+int DevLancifolium::dealLabeldrago(GnNode *tmpnode) { // L
 	// L[ab][cd][ed]...
 	int tmpform = 'A';
 	int tmplab;

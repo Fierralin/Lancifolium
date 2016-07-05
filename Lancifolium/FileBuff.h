@@ -26,7 +26,7 @@ typedef struct FileSaveBuff {
 	FileSaveBuff();
 	int openfile(char *filename);
 	void putc(char chr); /* 向流中寫入一個字符 */
-	void puts(char *str); /* 向流中寫入字符串 */
+	void puts(const char *str); /* 向流中寫入字符串 */
 } FileSaveBuff;
 
 #endif // FILEBUFF_H

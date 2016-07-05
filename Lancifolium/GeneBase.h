@@ -54,6 +54,8 @@ typedef struct GnNode { // 讀取棋譜文件所用節點，亦當可用於戰�
 
 	int jud_nextmov(int tmpmov); // 判斷下一個落子是否在nxt中，
 
+	const char *displaylabels();
+
 	void printing();
 	void printbase();
 } GnNode;

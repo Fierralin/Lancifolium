@@ -17,7 +17,8 @@ int main(int argc, char *argv[]) {
     else {
 		printf("----------------\n");
 	//sig.printtree();
-		sig.printpool();
+		//sig.printpool();
+		sig.writetree("kkk.sgf");
 		sig.deleteroot(sig.treeroot);
 	}
 }

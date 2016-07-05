@@ -53,7 +53,7 @@ void FileSaveBuff::putc(char chr) { /* 輸入EOF結束流並保存文件 */
 	}
 }
 
-void FileSaveBuff::puts(char *str) { /* */
+void FileSaveBuff::puts(const char *str) { /* */
 	if (strlen(str) > (MAXFILEBUFF - indx)) {
 		fwrite(buff, 1, indx, fileopen); /**/
 		indx = 0;

@@ -78,6 +78,77 @@ int GnNode::jud_nextmov(int tmpmov) { /* 判斷下一手是否在子節點中 */
 	return 0;
 }
 
+const char *GnNode::displaylabels() { // 這個功能寫弱一點，就當不會出現奇葩標籤好了
+	// 這個還有問題，沒有區別很多東西，主要還是跟drago有關
+	char buf[999999];
+	int buft[360], tmpt = 0; // triangle
+	int bufd[360], tmpd = 0; // diamond
+	int buff[360], tmpf = 0; // fork
+	int bufc[360], tmpc = 0; // circle
+	int bufa[360], tmpa = 0; // alphabet
+	for (int tmpi = 0; tmpi < this->labels.size(); tmpi++) {
+		switch (this->labels[tmpi] / 10000) {
+		case TRIANGLE: buft[tmpt++] = this->labels[tmpi] % 10000; break;
+		case  DIAMOND: bufd[tmpd++] = this->labels[tmpi] % 10000; break;
+		case     FORK: buff[tmpf++] = this->labels[tmpi] % 10000; break;
+		case   CIRCLE: bufc[tmpc++] = this->labels[tmpi] % 10000; break;
+		default:
+			bufa[tmpa++] = this->labels[tmpi]; break;
+		}
+	}
+
+	int tmp = 0;
+	if (tmpa > 0) {
+		buf[tmp++] = 'L'; buf[tmp++] = 'B';
+		for (int tmpi = 0; tmpi < tmpa; tmpi++) {
+			buf[tmp++] = '[';
+			buf[tmp++] = (bufa[tmpi] % 10000) / 100 + 'a';
+			buf[tmp++] = (bufa[tmpi] % 100) + 'a';
+			buf[tmp++] = ':';
+			buf[tmp++] = bufa[tmpi] / 10000;
+			buf[tmp++] = ']';
+		}
+	}
+	if (tmpt > 0) { // 三角形
+		buf[tmp++] = 'T'; buf[tmp++] = 'R';
+		for (int tmpi = 0; tmpi < tmpt; tmpi++) {
+			buf[tmp++] = '[';
+			buf[tmp++] = buft[tmpi] / 100 + 'a';
+			buf[tmp++] = buft[tmpi] % 100 + 'a';
+			buf[tmp++] = ']';
+		}
+	}
+	if (tmpd > 0) { // 方形
+		buf[tmp++] = 'T'; buf[tmp++] = 'R';
+		for (int tmpi = 0; tmpi < tmpd; tmpi++) {
+			buf[tmp++] = '[';
+			buf[tmp++] = bufd[tmpi] / 100 + 'a';
+			buf[tmp++] = bufd[tmpi] % 100 + 'a';
+			buf[tmp++] = ']';
+		}
+	}
+	if (tmpf > 0) { // 菱形
+		buf[tmp++] = 'T'; buf[tmp++] = 'R';
+		for (int tmpi = 0; tmpi < tmpf; tmpi++) {
+			buf[tmp++] = '[';
+			buf[tmp++] = buff[tmpi] / 100 + 'a';
+			buf[tmp++] = buff[tmpi] % 100 + 'a';
+			buf[tmp++] = ']';
+		}
+	}
+	if (tmpc > 0) { // 圓形
+		buf[tmp++] = 'T'; buf[tmp++] = 'R';
+		for (int tmpi = 0; tmpi < tmpc; tmpi++) {
+			buf[tmp++] = '[';
+			buf[tmp++] = bufc[tmpi] / 100 + 'a';
+			buf[tmp++] = bufc[tmpi] % 100 + 'a';
+			buf[tmp++] = ']';
+		}
+	}
+	buf[tmp] = '\0';
+	return buf;
+}
+
 void GnNode::printing() {
 	printf("\n|%p|%p|[%d](%d)", parent, this, mov, stoneProp);
 }

@@ -139,58 +139,33 @@ int GnTree::wreverse(int deep, GnNode *cur, FileSaveBuff &wril) {
 	}
 
 	if (cur->labels.size() > 0) { // labels
-		std::sort(cur->labels.begin(), cur->labels.end(), sortcmp);
-		vector<int>::iterator iter = std::unique(cur->labels.begin(), cur->labels.end());
-		cur->labels.erase(iter, cur->labels.end());
-		int tmpi = 0;
-		if (cur->labels[tmpi] / 10000 == TRIANGLE) { //
-			wril.puts("TR");
-			for (; tmpi < cur->labels.size(); tmpi++) {
-				if (cur->labels[tmpi] / 10000 == TRIANGLE) {
-					wril.putc('[');
-					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
-					wril.putc(cur->labels[tmpi] % 100 + 'a');
-					wril.putc(']');
-				}
-				else break;
-			}
+		wril.puts(cur->displaylabels());
+	}
+
+	if (cur->nodename != NULL && !cur->nodename->empty()) { // nodename
+		wril.puts("N[");
+		wril.puts(cur->nodename->c_str());
+		wril.puts("]");
+	}
+
+	if (cur->comment != NULL && !cur->comment->empty()) { // nodename
+		wril.puts("C[");
+		wril.puts(cur->comment->c_str());
+		wril.puts("]");
+	}
+	// 寫完了所有東西
+	if (cur->nxt.size() == 0) return 0;
+	if (cur->nxt.size() == 1) { // 有一個子節點
+		wril.putc(';'); wreverse(++deep, cur->nxt[0], wril);
+		return 0;
+	}
+	if (cur->nxt.size() > 1) { // 多個子節點
+		for (int tmpi = 0; tmpi < cur->nxt.size(); tmpi++) {
+			wril.puts("\n(;");
+			wreverse(++deep, cur->nxt[tmpi], wril);
+			wril.puts(")\n");
 		}
-		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == DIAMOND)) { //
-			wril.puts("SQ");
-			for (; tmpi < cur->labels.size(); tmpi++) {
-				if (cur->labels[tmpi] / 10000 == DIAMOND) {
-					wril.putc('[');
-					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
-					wril.putc(cur->labels[tmpi] % 100 + 'a');
-					wril.putc(']');
-				}
-				else break;
-			}
-		}
-		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == FORK)) { //
-			wril.puts("MA");
-			for (; tmpi < cur->labels.size(); tmpi++) {
-				if (cur->labels[tmpi] / 10000 == FORK) {
-					wril.putc('[');
-					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
-					wril.putc(cur->labels[tmpi] % 100 + 'a');
-					wril.putc(']');
-				}
-				else break;
-			}
-		}
-		if (tmpi < cur->labels.size() && (cur->labels[tmpi] / 10000 == FORK)) { //
-			wril.puts("MA");
-			for (; tmpi < cur->labels.size(); tmpi++) {
-				if (cur->labels[tmpi] / 10000 == FORK) {
-					wril.putc('[');
-					wril.putc((cur->labels[tmpi] % 10000) / 100 + 'a');
-					wril.putc(cur->labels[tmpi] % 100 + 'a');
-					wril.putc(']');
-				}
-				else break;
-			}
-		}
+		return 0;
 	}
 }
 
@@ -207,7 +182,7 @@ void GnTree::writetree(char *filename) {
 
 	wreverse(1, this->treeroot, wril);
 
-	wril.puts(")");
+	wril.puts(")\n");
 }
 
 int GnTree::reverse(int deep, struct GnNode *cur) {
