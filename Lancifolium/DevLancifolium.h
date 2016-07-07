@@ -30,6 +30,9 @@ typedef struct DevLancifolium { // 全局結構
 	/* 棋譜信息函數 */
 	int dealSize();
 
+	int dealEncode(); // deal encode
+
+	// 節點內容函數
 	int dealAddStones(struct GnNode *tmpnode, int colour);
 
 	int dealMove(struct GnNode *tmpnode, int colour);

@@ -65,6 +65,7 @@ typedef struct __GnTree { // 保存提子信息，GnNode中已經包含了這個
 	std::list<string> nodename; // 節點名池
 	GnNode *treeroot; // 棋譜樹
 	int siz; // 棋盤規格
+	string encode; // 編碼
 
 	void init();
 	__GnTree();

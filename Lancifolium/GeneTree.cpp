@@ -173,16 +173,24 @@ void GnTree::writetree(char *filename) {
 	FileSaveBuff wril;
 	wril.openfile(filename);
 
-	wril.puts("(\n ;GM[1]FF[4]CA[UTF-8]ST[2]");
+	wril.puts("(\n ;GM[1]FF[4]ST[2]");
 	wril.puts("SZ[");
-	char tmpsize[3];
-	sprintf(tmpsize, "%d",this->siz);
-	wril.puts(tmpsize);
-	wril.puts("]");
+	if (this->siz > 3 && this->siz < 27) {
+		char tmpsize[3];
+		sprintf(tmpsize, "%d",this->siz);
+		wril.puts(tmpsize);
+	}
+	else wril.puts("19");
+	wril.puts("]CA[");
+	if (this->encode.empty()) wril.puts("UTF-8");
+	else wril.puts(this->encode.c_str());
+	wril.putc(']');
 
-	wreverse(1, this->treeroot, wril);
+
+	wreverse(1, this->treeroot, wril); // 遞歸寫譜
 
 	wril.puts(")\n");
+	wril.putc(EOF); // important here
 }
 
 int GnTree::reverse(int deep, struct GnNode *cur) {

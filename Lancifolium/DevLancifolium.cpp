@@ -22,19 +22,33 @@ DevLancifolium::~DevLancifolium() {
 
 /* 處理節點內容函數 */
 int DevLancifolium::dealSize() {
-	char tmpnum[3];//, reader;
+	char tmpnum[3]; //, reader;
 	int tmpi;
 	reader = read.getc(); // 棄了'['
 	tmpi = 0;
 	while (isdigit(reader)) {
-		tmpnum[tmpi++] = reader; reader = read.getc();
-		if (tmpi > 2) break;
+		if (tmpi < 2) tmpnum[tmpi++] = reader;
+		reader = read.getc();
 	}
 	tmpnum[tmpi] = '\0';
 	siz = atoi(tmpnum);
 	if (siz < 4) siz = 4; else if (siz > 26) siz = 26;
 	gntree->siz = this->siz; // bord size
-	reader = read.getc(); //
+	reader = read.getc(); // 棄了']'
+}
+
+int DevLancifolium::dealEncode() {
+	char tmpcode[100];
+	int tmpi;
+	reader = read.getc(); // 棄了'['
+	tmpi = 0;
+	while (reader != ']') {
+		if (tmpi < 99) tmpcode[tmpi++] = reader;
+		reader = read.getc();
+	}
+	tmpcode[tmpi] = '\0';
+	gntree->encode = tmpcode;
+	reader = read.getc(); // 棄了']'
 }
 
 int DevLancifolium::dealAddStones(struct GnNode *tmpnode, int colour) {
@@ -192,6 +206,7 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		if (reader == EOF) return 0; // EOF
 
 		switch (operatecase(operate)) {
+		// 先是節點信息
 		case 1202: dealLabels(curNode); break; /* LB 字母 */
 		case 12:   dealLabeldrago(curNode); break; /* L (only for drago) 字母 */
 		case 2018: dealShapes(curNode, TRIANGLE); break; /* TR 三角 1 */
@@ -202,9 +217,12 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		case 14:   dealCommentNodename(curNode, 2); break; /* N nodename */
 		case 102:  dealAddStones(curNode, BLACKSTONE); break; /* AB 添加黑子 */
 		case 123:  dealAddStones(curNode, WHITESTONE); break; /* AW 添加白子 */
-		case 1926: dealSize(); break; /* SZ deal size */
 		case 2:    dealMove(curNode, BLACKSTONE); break; /* B 黑走子 */
 		case 23:   dealMove(curNode, WHITESTONE); break; /* W 白走子 */
+
+		// 後是棋譜信息
+		case 1926: dealSize(); break; /* SZ deal size */
+		case  301: dealEncode(); break; // CA deal encode
 		default: /* 其他忽略 */
 			while (reader != ']' && reader != EOF) reader = read.getc();
 			reader = read.getc(); // 棄了']'
