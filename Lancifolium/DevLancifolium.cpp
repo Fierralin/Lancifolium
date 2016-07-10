@@ -81,7 +81,14 @@ int DevLancifolium::dealAddStones(struct GnNode *tmpnode, int colour) {
 
 int DevLancifolium::dealMove(GnNode *tmpnode, int colour) {
 	int tmpx, tmpy;
+
 	reader = toupper(read.getc());
+
+	if (reader == ']') {
+		reader = read.getc(); // 棄了']'
+		return 1;
+	}
+
 	while (!isalpha(reader) && reader != EOF) reader = read.getc();
 	tmpx = reader - 'A';
 	reader = toupper(read.getc());
@@ -92,6 +99,7 @@ int DevLancifolium::dealMove(GnNode *tmpnode, int colour) {
 
 	reader = read.getc(); // ']'
 	reader = read.getc(); // 棄了']'
+	return 0;
 }
 
 int DevLancifolium::dealCommentNodename(GnNode *tmpnode, int tmpkind) {
@@ -202,7 +210,12 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 			operate[tmpi++] = toupper(reader); reader = read.getc();
 		}
 		operate[tmpi] = '\0'; // LB, C, N, AB, AW, SZ,
-		while (reader != '[' && reader != EOF) reader = read.getc(); // 找到'['
+		char alalalalala[2000]; int tmpj = 0;
+		while (reader != '[' && reader != EOF) {
+			alalalalala[tmpj++] = reader;
+			reader = read.getc(); // 找到'['
+		}
+		alalalalala[tmpj] = '\0';
 		if (reader == EOF) return 0; // EOF
 
 		switch (operatecase(operate)) {
@@ -217,6 +230,7 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		case 14:   dealCommentNodename(curNode, 2); break; /* N nodename */
 		case 102:  dealAddStones(curNode, BLACKSTONE); break; /* AB 添加黑子 */
 		case 123:  dealAddStones(curNode, WHITESTONE); break; /* AW 添加白子 */
+		case 105:  dealAddEmpty(curNode); break; // AE 刪除棋子
 		case 2:    dealMove(curNode, BLACKSTONE); break; /* B 黑走子 */
 		case 23:   dealMove(curNode, WHITESTONE); break; /* W 白走子 */
 
@@ -224,7 +238,13 @@ int DevLancifolium::configNode() { // 處理一個非根節點，curNode指之
 		case 1926: dealSize(); break; /* SZ deal size */
 		case  301: dealEncode(); break; // CA deal encode
 		default: /* 其他忽略 */
-			while (reader != ']' && reader != EOF) reader = read.getc();
+			printf("[%s]", operate); ////////////////////////// only for test
+			while (reader != ']' && reader != EOF) {
+				alalalalala[tmpj++] = reader;
+				reader = read.getc();
+			}
+			alalalalala[tmpj] = '\0';
+			printf("{%s}\n", alalalalala);
 			reader = read.getc(); // 棄了']'
 		}
 
