@@ -109,7 +109,7 @@ int DevLancifolium::dealCommentNodename(GnNode *tmpnode, int tmpkind) {
 	reader = read.getc(); // 棄了'['
 	tmpsave = '\0';
 	while ((reader != ']') || (tmpsave == '\\')) {
-		/* // 此處進行了轉義處理，也可不進行轉義處理，這個並不好辦
+		/* // 此處進行了更多轉義處理，也可不進行轉義處理，這個並不好辦
 		if (tmpsave == '\\') { // 此處要改 --- 注意，此處將[, ]及一些空白字符進行了轉義
 			if (reader == 'n') buff[tmpi - 1] = '\n'; // '\n'
 			else if (reader == 't') buff[tmpi - 1] = '\t'; // '\t'
